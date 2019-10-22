@@ -1,0 +1,108 @@
+.card {
+  border: none;
+
+  &-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &.-row {
+      flex-direction: row;
+
+      & > .container-img {
+        flex: 1;
+        margin-right: 12px;
+        width: 50px;
+        height: 50px;
+        overflow: hidden;
+
+        & > img {
+          width: 50px;
+          height: 50px;
+        }
+      }
+    }
+  }
+
+  &-content {
+    flex: 3;
+    & > h6 {
+      text-align: left;
+      color: $primary;
+      font-size: 20px;
+      margin-bottom: 7px;
+      font-weight: bolder;
+    }
+
+    & > p {
+      text-align: left;
+      font-size: 15px;
+      color: #999999;
+      letter-spacing: 0.3px;
+      margin-bottom: 14px;
+    }
+  }
+
+  &-text {
+    &-normal {
+      font-size: 1rem;
+    }
+  }
+
+  &-border {
+    border-radius: 12px;
+    border: 2px solid $bluelighter;
+  }
+
+  &-radius {
+    overflow: hidden;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+  }
+
+  &-img-overlay {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background: linear-gradient(transparent, rgba(58, 58, 109, 0.95) 50%);
+
+    > .card-title {
+      font-weight: bolder;
+      color: $primary;
+      font-size: 1.375rem;
+      margin-bottom: 7px;
+    }
+
+    > .date {
+      font-size: 0.75rem;
+      margin-bottom: 0;
+      color: $white;
+    }
+  }
+
+  &-description {
+    font-size: 1rem;
+    margin-bottom: 30px;
+  }
+
+  &-user {
+    width: 100%;
+    display: flex;
+    align-items: center;
+
+    > .img-rouded {
+      overflow: hidden;
+      border-radius: 50%;
+      margin-right: 13px;
+      width: 50px;
+      height: 50px;
+    }
+
+    > h6 {
+      margin-bottom: 0;
+      font-size: 1.1rem;
+      color: $primary;
+      font-size: 700;
+    }
+  }
+}

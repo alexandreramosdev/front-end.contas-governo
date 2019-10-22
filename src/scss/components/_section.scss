@@ -1,0 +1,78 @@
+.section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2.5rem 0;
+
+  &-hero {
+    & .side-img {
+      position: relative;
+
+      > img {
+        position: absolute;
+        left: 0;
+        top: -205px;
+
+        // filter: drop-shadow(0px 10px 45px #222);
+      }
+    }
+  }
+
+  &-cta-db {
+    background-color: #ecf1f8;
+
+    & h2 {
+      font-size: 1.875rem;
+    }
+  }
+
+  &-cta-conta {
+    background: linear-gradient(to right, #01f39b, #00bcff);
+
+    & h2 {
+      font-size: 1.875rem;
+    }
+  }
+
+  &-cta-contrate {
+    background-color: $secondary;
+
+    & h2 {
+      font-size: 1.875rem;
+    }
+
+    & .side-img {
+      position: relative;
+
+      > img {
+        position: absolute;
+        left: 0;
+        top: -138px;
+        // box-shadow: 0 20px 40px #000;
+        filter: drop-shadow(0px 15px 35px #222);
+      }
+    }
+  }
+
+  &-app {
+    background: linear-gradient(to bottom, #ecf1f8, transparent 70%);
+    & .side-img {
+      position: relative;
+
+      > img {
+        position: absolute;
+        left: 0;
+        top: -327px;
+        filter: drop-shadow(0px 15px 35px #22222222);
+      }
+    }
+  }
+
+  &-licitacao {
+    background: linear-gradient(to right, #01f39b, #00bcff);
+  }
+
+  &-case {
+    background: url("/assets/images/logo-white.png") -100px no-repeat;
+  }
+}

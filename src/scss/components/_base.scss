@@ -1,0 +1,15 @@
+p {
+  font-size: $font-size-lg;
+}
+
+.font-size-sm {
+  font-size: $font-size-base;
+}
+
+.vg-main {
+  overflow: hidden;
+}
+
+.bg-linear {
+  background-image: linear-gradient(-33deg, #00cae6 0%, #0dffcf 100%);
+}
