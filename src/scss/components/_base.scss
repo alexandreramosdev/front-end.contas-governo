@@ -2,6 +2,14 @@ p {
   font-size: $font-size-lg;
 }
 
+.font-size-smaller {
+  font-size: 12px;
+}
+
+.font-size-small {
+  font-size: $font-size-sm;
+}
+
 .font-size-sm {
   font-size: $font-size-base;
 }

@@ -43,6 +43,40 @@
     }
   }
 
+  &-planos {
+    border-radius: 12px;
+    box-shadow: 0 5px 15px #ccc;
+    padding-top: 38px;
+    position: relative;
+
+    &__side {
+      margin-bottom: 70px;
+      width: 280px !important;
+      position: absolute;
+      left: 10px;
+      bottom: 50px;
+    }
+
+    & .card-title {
+      font-size: 1.125rem;
+      font-weight: 900;
+      text-align: center;
+      padding: 0 35px;
+      color: $secondary;
+      line-height: 1;
+      text-transform: uppercase;
+    }
+  }
+
+  &-footer {
+    border-radius: 12px;
+  }
+
+  &-header {
+    font-weight: bold;
+    background-color: #9e9eb7;
+  }
+
   &-text {
     &-normal {
       font-size: 1rem;

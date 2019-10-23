@@ -3,12 +3,14 @@ $secondary: #3a3a6c;
 $headings-color: #63636c;
 $body-color: #6a7480;
 $bluelighter: #919ccb;
+$gray-lighter: #88898a;
 
 $font-family-sans-serif: Lato, sans-serif;
 $headings-margin-bottom: 2.5rem;
 $display1-weight: 100;
 
 $theme-colors: (
+  "gray-lighter": $gray-lighter,
   "bluelighter": $bluelighter
 );
 
