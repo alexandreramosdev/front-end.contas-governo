@@ -7362,6 +7362,20 @@ p {
       color: #00d6d0;
       font-size: 700; }
 
+.modal-dialog {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  max-width: 100%; }
+
+.modal-content {
+  width: 100%;
+  border-radius: 0;
+  background: linear-gradient(to right, #01f39b, #00bcff); }
+  .modal-content .row {
+    width: 100%; }
+
 .section {
   display: flex;
   flex-direction: column;

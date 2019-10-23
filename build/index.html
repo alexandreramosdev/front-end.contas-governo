@@ -57,56 +57,97 @@
               </p>
             </div>
             <div class="col-lg-4 d-flex justify-content-center py-2 py-lg-0">
-              <a
-                class="btn rounded-pill -sm btn-light mr-2 dropdown"
-                data-toggle="dropdown"
-                aria-haspopup="true"
-                aria-expanded="false"
-                href="#"
-                role="button"
-                >Login</a
-              >
-              <form class="dropdown-menu p-4">
-                <h6
-                  class="text-center text-uppercase mb-3 text-secondary font-weight-bold"
+              <div>
+                <a
+                  class="btn rounded-pill -sm btn-light mr-2 dropdown"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                  href="#"
+                  role="button"
+                  >Login</a
                 >
-                  Entra na sua conta
-                </h6>
-                <input
-                  type="email"
-                  class="form-control rounded-pill bg-light border-0 text-secondary mb-2"
-                  id="email"
-                  placeholder="Email"
-                />
+                <form class="dropdown-menu p-4">
+                  <h6
+                    class="text-center text-uppercase mb-3 text-secondary font-weight-bold"
+                  >
+                    Entra na sua conta
+                  </h6>
+                  <input
+                    type="email"
+                    class="form-control rounded-pill bg-light border-0 text-secondary mb-2"
+                    id="email"
+                    placeholder="Email"
+                  />
 
-                <input
-                  type="password"
-                  class="form-control rounded-pill bg-light border-0 text-secondary mb-2"
-                  id="password"
-                  placeholder="Senha"
-                />
+                  <input
+                    type="password"
+                    class="form-control rounded-pill bg-light border-0 text-secondary mb-2"
+                    id="password"
+                    placeholder="Senha"
+                  />
 
-                <div class="text-right mb-2">
-                  <a class="text-secondary" href="#">Esquecia a senha</a>
-                </div>
+                  <div class="text-right mb-2">
+                    <a class="text-secondary" href="#">Esquecia a senha</a>
+                  </div>
 
-                <button
-                  type="submit"
-                  class="btn btn-primary rounded-pill -sm d-block w-100 mb-2 text-uppercase py-2"
+                  <button
+                    type="submit"
+                    class="btn btn-primary rounded-pill -sm d-block w-100 mb-2 text-uppercase py-2"
+                  >
+                    Entrar
+                  </button>
+
+                  <div class="text-center">
+                    <a
+                      class="text-secondary font-weight-bold text-uppercase"
+                      href="#"
+                      >Criar conta</a
+                    >
+                  </div>
+                </form>
+              </div>
+              <div>
+                <a
+                  class="btn rounded-pill -sm btn-primary text-secondary dropdown"
+                  data-toggle="modal"
+                  data-target="#experimentar"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                  href="#"
+                  role="button"
+                  >EXPERIMENTAR</a
                 >
-                  Entrar
-                </button>
-
-                <div class="text-center">
-                  <a class="text-secondary font-weight-bold text-uppercase" href="#">Criar conta</a>
+                <!-- Modal -->
+                <div
+                  class="modal fade p-0"
+                  id="experimentar"
+                  tabindex="-1"
+                  role="dialog"
+                  aria-labelledby="ModalLabel"
+                  aria-hidden="true"
+                >
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="container py-4 d-flex flex-wrap align-items-center justify-content-center justify-content-md-between">
+                        <h4 class="mb-3 mb-md-0 text-secondary text-md-left">
+                          Assine agora mesmo por
+                          <span class="font-weight-bold"
+                            >7 dias sem pagar nada.</span
+                          >
+                        </h4>
+                        <div class="text-center text-sm-right">
+                          <a
+                            class="btn btn-secondary text-uppercase rounded-pill -sm"
+                            href="#"
+                            >Conheça nosso planos</a
+                          >
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
-              </form>
-              <a
-                class="btn rounded-pill -sm btn-primary text-secondary"
-                href="#"
-                role="button"
-                >EXPERIMENTAR</a
-              >
+              </div>
             </div>
           </div>
         </div>
