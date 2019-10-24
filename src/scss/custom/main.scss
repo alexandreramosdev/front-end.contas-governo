@@ -4,6 +4,7 @@ $headings-color: #63636c;
 $body-color: #6a7480;
 $bluelighter: #919ccb;
 $gray-lighter: #88898a;
+$egg-blue: #00cae6;
 
 $font-family-sans-serif: Lato, sans-serif;
 $headings-margin-bottom: 2.5rem;
@@ -11,7 +12,9 @@ $display1-weight: 100;
 
 $theme-colors: (
   "gray-lighter": $gray-lighter,
-  "bluelighter": $bluelighter
+  "bluelighter": $bluelighter,
+  "egg-blue": $egg-blue,
+  "indicado": #00eea4
 );
 
 $h1-font-size: 3.125rem;

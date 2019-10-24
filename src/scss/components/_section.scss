@@ -36,6 +36,7 @@
 
   &-cta-contrate {
     background-color: $secondary;
+    margin-bottom: 100px !important;
 
     & h2 {
       font-size: 1.875rem;
@@ -49,7 +50,8 @@
         left: 0;
         top: -138px;
         // box-shadow: 0 20px 40px #000;
-        filter: drop-shadow(0px 15px 35px #222);
+        filter: drop-shadow(0px 5px 20px #333333);
+        z-index: 1020;
       }
     }
   }
@@ -64,6 +66,7 @@
         left: 0;
         top: -327px;
         filter: drop-shadow(0px 15px 35px #22222222);
+        z-index: 1020;
       }
     }
   }

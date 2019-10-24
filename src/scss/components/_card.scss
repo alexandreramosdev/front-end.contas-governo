@@ -26,6 +26,7 @@
 
   &-content {
     flex: 3;
+
     & > h6 {
       text-align: left;
       color: $primary;
@@ -44,8 +45,8 @@
   }
 
   &-planos {
-    border-radius: 12px;
-    box-shadow: 0 5px 15px #ccc;
+    border-radius: 20px;
+    box-shadow: 2px 2px 35px rgba(58, 58, 108, 0.13);
     padding-top: 38px;
     position: relative;
 
@@ -53,8 +54,8 @@
       margin-bottom: 70px;
       width: 280px !important;
       position: absolute;
-      left: 10px;
-      bottom: 50px;
+      left: 40px;
+      bottom: 60px;
     }
 
     & .card-title {
@@ -65,6 +66,16 @@
       color: $secondary;
       line-height: 1;
       text-transform: uppercase;
+
+      &.-indicado {
+        color: #00eea4;
+      }
+    }
+
+    & .card-header {
+      &.-indicado {
+        background: #00eea4;
+      }
     }
   }
 
@@ -85,7 +96,11 @@
 
   &-border {
     border-radius: 12px;
-    border: 2px solid $bluelighter;
+    border: 3px solid $bluelighter;
+
+    &.-light {
+      border: 3px solid #ecf1f8;
+    }
   }
 
   &-radius {

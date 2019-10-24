@@ -2,6 +2,20 @@ p {
   font-size: $font-size-lg;
 }
 
+.line-height {
+  &-1 {
+    line-height: 1.1;
+  }
+
+  &-2 {
+    line-height: 1.2;
+  }
+}
+
+.font-weight-bolder {
+  font-weight: 900 !important;
+}
+
 .font-size-smaller {
   font-size: 12px;
 }
@@ -14,10 +28,18 @@ p {
   font-size: $font-size-base;
 }
 
+.fz-28 {
+  font-size: 1.75rem;
+}
+
 .vg-main {
   overflow: hidden;
 }
 
 .bg-linear {
   background-image: linear-gradient(-33deg, #00cae6 0%, #0dffcf 100%);
+}
+
+.minwidth-300 {
+  min-width: 300px;
 }
