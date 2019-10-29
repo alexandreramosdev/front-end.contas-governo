@@ -78,4 +78,37 @@
   &-case {
     background: url("/assets/images/logo-white.png") -100px no-repeat;
   }
+
+  &-breadcrumb {
+    background: #dce1ec;
+    margin-bottom: 90px;
+    padding-top: 18px;
+
+    & .col {
+      position: relative;
+    }
+
+    & .img {
+      position: absolute;
+      right: 100px;
+      margin-top: 10px;
+    }
+
+    & h1 {
+      color: $secondary;
+      font-weight: bolder;
+      font-size: 38px;
+      margin-top: 26px;
+    }
+
+    & h2 {
+      color: #63636c;
+      font-size: 30px;
+      margin-bottom: 72px;
+
+      & span {
+        font-weight: bolder;
+      }
+    }
+  }
 }

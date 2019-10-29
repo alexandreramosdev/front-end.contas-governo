@@ -29,7 +29,7 @@
   --breakpoint-md: 768px;
   --breakpoint-lg: 992px;
   --breakpoint-xl: 1200px;
-  --font-family-sans-serif: Lato, sans-serif;
+  --font-family-sans-serif: Lato, FontAwesome, sans-serif;
   --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; }
 
 *,
@@ -48,7 +48,7 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 
 body {
   margin: 0;
-  font-family: Lato, sans-serif;
+  font-family: Lato, FontAwesome, sans-serif;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
@@ -4509,7 +4509,7 @@ a.close.disabled {
   z-index: 1070;
   display: block;
   margin: 0;
-  font-family: Lato, sans-serif;
+  font-family: Lato, FontAwesome, sans-serif;
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
@@ -4594,7 +4594,7 @@ a.close.disabled {
   z-index: 1060;
   display: block;
   max-width: 276px;
-  font-family: Lato, sans-serif;
+  font-family: Lato, FontAwesome, sans-serif;
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
@@ -7452,8 +7452,27 @@ a.text-indicado:hover, a.text-indicado:focus {
     color: inherit;
     border-color: #dee2e6; } }
 
+a:focus,
+button:focus,
+textarea:focus,
+textarea.form-control:focus,
+input.form-control:focus,
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="email"]:focus,
+input[type="number"]:focus,
+[type="text"].form-control:focus,
+[type="password"].form-control:focus,
+[type="email"].form-control:focus,
+[type="tel"].form-control:focus,
+[contenteditable].form-control:focus {
+  outline: 0 !important; }
+
 p {
   font-size: 1.25rem; }
+
+strong {
+  font-weight: 900; }
 
 .line-height-1 {
   line-height: 1.1; }
@@ -7491,7 +7510,7 @@ p {
 
 .btn {
   padding: 0.9375rem 1.875rem;
-  font-weight: bold;
+  font-weight: bolder;
   line-height: 1;
   font-size: 1.25rem; }
   .btn.-sm {
@@ -7499,6 +7518,9 @@ p {
     font-size: 0.875rem; }
   .btn.-smaller {
     font-size: 0.75rem; }
+  .btn.-py-40 {
+    padding-left: 40px;
+    padding-right: 40px; }
   .btn.-normal {
     font-size: 1rem; }
   .btn-weight-normal {
@@ -7606,20 +7628,141 @@ p {
       font-size: 1.1rem;
       color: #00d6d0;
       font-size: 700; }
+  .card-search {
+    padding: 25px 40px;
+    border-radius: 40px;
+    margin-bottom: 20px; }
+    .card-search p {
+      font-size: 1rem;
+      margin-bottom: 0; }
+    .card-search .btn {
+      padding: 12px 20px; }
+    .card-search .star {
+      vertical-align: middle;
+      font-size: 25px;
+      color: #d8dde3;
+      line-height: 42px; }
+      .card-search .star.selected {
+        color: #00cae6; }
 
-.modal-dialog {
+.modal-top {
   width: 100%;
   height: 100%;
   margin: 0;
   padding: 0;
   max-width: 100%; }
+  .modal-top > .modal-content {
+    width: 100%;
+    border-radius: 0;
+    background: linear-gradient(to right, #01f39b, #00bcff); }
+    .modal-top > .modal-content .row {
+      width: 100%; }
 
-.modal-content {
+.modal-licitacao .modal-content {
+  overflow: hidden;
+  border-radius: 25px;
+  border: 0; }
+
+.modal-licitacao .link-planos {
+  text-decoration: underline; }
+
+.modal-licitacao img {
   width: 100%;
-  border-radius: 0;
-  background: linear-gradient(to right, #01f39b, #00bcff); }
-  .modal-content .row {
-    width: 100%; }
+  max-width: 253px; }
+
+.modal-licitacao h3 {
+  line-height: 1.2; }
+
+.dropdown-login {
+  box-shadow: 2px 2px 35px rgba(58, 58, 108, 0.13); }
+  .dropdown-login > input::placeholder {
+    color: #3a3a6c;
+    font-weight: bolder; }
+  .dropdown-login a {
+    text-decoration: underline; }
+
+.dropdown-filter {
+  width: 210px;
+  box-shadow: 2px 2px 35px rgba(58, 58, 108, 0.13);
+  border: 0;
+  margin-top: 20px; }
+
+.dropdown-scrollable {
+  height: auto;
+  max-height: 800px;
+  overflow-x: hidden; }
+
+.input-search > input::placeholder {
+  font-weight: bolder;
+  text-transform: uppercase;
+  color: #3a3a6c;
+  font-size: 1rem; }
+
+/* input[type="checkbox"] {
+  position: absolute;
+  opacity: 0;
+  z-index: -1;
+}
+input[type="checkbox"] + span {
+  font: 16pt sans-serif;
+  color: #000;
+}
+input[type="checkbox"] + span:before {
+  font: 16pt FontAwesome !important;
+  content: "\f046";
+  display: inline-block;
+  width: 16pt;
+  padding: 2px 0 0 3px;
+  margin-right: 0.5em;
+}
+input[type="checkbox"]:checked + span:before {
+  content: "\f046";
+}
+input[type="checkbox"]:focus + span:before {
+  outline: 1px dotted #aaa;
+}
+input[type="checkbox"]:disabled + span {
+  color: #999;
+}
+input[type="checkbox"]:not(:disabled) + span:hover:before {
+  text-shadow: 0 1px 2px #77f;
+} */
+label {
+  line-height: 1;
+  margin-bottom: 0;
+  vertical-align: middle;
+  color: #3a3a6c;
+  display: flex;
+  align-items: center;
+  font-size: 13px; }
+
+input[type="checkbox"] {
+  width: 10px;
+  height: 10px;
+  margin-right: 16px;
+  cursor: pointer;
+  font-size: 14px;
+  visibility: hidden; }
+
+input[type="checkbox"]:after {
+  content: " ";
+  background-color: #fff;
+  margin-bottom: 10px;
+  margin-right: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #3a3a6c;
+  width: 17px;
+  height: 17px;
+  visibility: visible;
+  border: 2px solid #919ccb;
+  border-radius: 3px; }
+
+input[type="checkbox"]:checked:after {
+  content: "\2714";
+  padding: 2px;
+  font-weight: bold; }
 
 .section {
   display: flex;
@@ -7667,6 +7810,27 @@ p {
     background: linear-gradient(to right, #01f39b, #00bcff); }
   .section-case {
     background: url("/assets/images/logo-white.png") -100px no-repeat; }
+  .section-breadcrumb {
+    background: #dce1ec;
+    margin-bottom: 90px;
+    padding-top: 18px; }
+    .section-breadcrumb .col {
+      position: relative; }
+    .section-breadcrumb .img {
+      position: absolute;
+      right: 100px;
+      margin-top: 10px; }
+    .section-breadcrumb h1 {
+      color: #3a3a6c;
+      font-weight: bolder;
+      font-size: 38px;
+      margin-top: 26px; }
+    .section-breadcrumb h2 {
+      color: #63636c;
+      font-size: 30px;
+      margin-bottom: 72px; }
+      .section-breadcrumb h2 span {
+        font-weight: bolder; }
 
 .container-slider {
   max-width: 960px;

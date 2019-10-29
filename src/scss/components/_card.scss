@@ -154,4 +154,30 @@
       font-size: 700;
     }
   }
+
+  &-search {
+    padding: 25px 40px;
+    border-radius: 40px;
+    margin-bottom: 20px;
+
+    & p {
+      font-size: $font-size-base;
+      margin-bottom: 0;
+    }
+
+    & .btn {
+      padding: 12px 20px;
+    }
+
+    & .star {
+      vertical-align: middle;
+      font-size: 25px;
+      color: #d8dde3;
+      line-height: 42px;
+
+      &.selected {
+        color: #00cae6;
+      }
+    }
+  }
 }

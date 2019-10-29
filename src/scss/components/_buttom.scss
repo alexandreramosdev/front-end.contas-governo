@@ -1,6 +1,6 @@
 .btn {
   padding: 0.9375rem 1.875rem;
-  font-weight: bold;
+  font-weight: bolder;
   line-height: 1;
   font-size: 1.25rem;
 
@@ -11,6 +11,11 @@
 
   &.-smaller {
     font-size: 0.75rem;
+  }
+
+  &.-py-40 {
+    padding-left: 40px;
+    padding-right: 40px;
   }
 
   &.-normal {
