@@ -1,3 +1,4 @@
+@charset "UTF-8";
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -7601,6 +7602,9 @@ strong {
 .font-size-sm {
   font-size: 1rem; }
 
+.fz-18 {
+  font-size: 1.125rem !important; }
+
 .fz-28 {
   font-size: 1.75rem; }
 
@@ -7612,6 +7616,9 @@ strong {
 
 .minwidth-300 {
   min-width: 300px; }
+
+.rounded {
+  border-radius: 20px !important; }
 
 .container {
   max-width: 60rem;
@@ -7959,6 +7966,20 @@ input[type="checkbox"]:checked:after {
       margin-bottom: 72px; }
       .section-breadcrumb h2 span {
         font-weight: bolder; }
+    .section-breadcrumb-planosepreços {
+      background-color: #ecf1f8;
+      height: 430px;
+      margin-bottom: 0; }
+      @media (max-width: 575px) {
+        .section-breadcrumb-planosepreços {
+          height: 330px; } }
+      .section-breadcrumb-planosepreços h1 {
+        font-weight: normal; }
+      .section-breadcrumb-planosepreços h2 {
+        font-size: 25px; }
+  .section-faq-pp {
+    background-color: #ecf1f8;
+    padding-bottom: 90px; }
 
 .container-slider {
   max-width: 960px;

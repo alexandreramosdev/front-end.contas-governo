@@ -49,6 +49,10 @@ strong {
   font-size: $font-size-base;
 }
 
+.fz-18 {
+  font-size: 1.125rem !important;
+}
+
 .fz-28 {
   font-size: 1.75rem;
 }
@@ -63,4 +67,8 @@ strong {
 
 .minwidth-300 {
   min-width: 300px;
+}
+
+.rounded {
+  border-radius: 20px !important;
 }

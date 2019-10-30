@@ -110,5 +110,28 @@
         font-weight: bolder;
       }
     }
+
+    &-planosepreços {
+      background-color: #ecf1f8;
+      height: 430px;
+      margin-bottom: 0;
+
+      @media (max-width: 575px) {
+        height: 330px;
+      }
+
+      & h1 {
+        font-weight: normal;
+      }
+
+      & h2 {
+        font-size: 25px;
+      }
+    }
+  }
+
+  &-faq-pp {
+    background-color: #ecf1f8;
+    padding-bottom: 90px;
   }
 }
