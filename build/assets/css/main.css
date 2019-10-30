@@ -8022,6 +8022,8 @@ input[type="checkbox"]:checked:after {
     @media (max-width: 764px) {
       .section-aplication img {
         width: 100%; } }
+  .section-aplicativos {
+    background: url("/assets/images/logo-white.png") -100px no-repeat; }
 
 .container-slider {
   max-width: 960px;
