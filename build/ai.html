@@ -14,6 +14,13 @@
       integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
       crossorigin="anonymous"
     />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/tiny-slider.css"
+  />
+  <!--[if (lt IE 9)
+    ]><script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.helper.ie8.js"></script
+  ><![endif]-->
     <link rel="stylesheet" href="./assets/css/main.css" />
     <title>Home - Vendas Governo</title>
   </head>
@@ -381,393 +388,366 @@
 
     <main class="vg-main">
       <!-- Breadcrumb -->
-      <div class="section-breadcrumb">
+      <div class="section-breadcrumb bg-light mb-0 ">
         <div class="container">
-          <div><i class="fas fa-home"></i> > licitação</div>
-          <div class="row justify-content-center">
-            <div class="d-none d-sm-flex col-sm-8">
-              <img class="img" src="./assets/images/breadcrumb.png" alt="..." />
-            </div>
+          <div class="text-uppercase">
+            <i class="fas fa-home"></i> > inteligencia artificial
+          </div>
+          <div class="row justify-content-center align-items-center">
             <div
-              class="col-12 col-sm-4 d-flex flex-column justify-content-center"
+              class="col-12 col-sm-6 d-flex flex-column justify-content-center"
             >
-              <h1 class="mb-2">Licitações</h1>
+              <h1 class="mb-2 font-weight-bolder">
+                Tecnologia e Inteligência Artifical em só lugar
+              </h1>
               <h2>
-                <span class="bolder">Pesquise</span> pelo seu produto ou serviço
-                <span class="bolder">agora mesmo.</span>
+                Dolor sit amet, consectetur
+                <span class="bolder">adicing elit, sed</span> do eiuod tempor
+                incididunt ut labore et
               </h2>
+            </div>
+            <div class="col my-5">
+              <img class="img-fluid" src="./assets/images/ai.png" alt="..." />
             </div>
           </div>
         </div>
       </div>
 
-      <!-- Search licitacao -->
-      <div class="container d-flex flex-column align-items-center">
-        <div class="d-flex justify-content-between align-items-center w-100">
-          <div
-            class="input-group input-search md-form form-sm card-border border-secondary form-2 pl-0 rounded-pill input-search"
-          >
-            <input
-              class="form-control m-2 pl-4 border-0 bg-transparent"
-              type="text"
-              placeholder="publicidade !"
-              aria-label="Search"
-            />
-            <div class="input-group-append pr-4">
-              <a
-                href="#"
-                class="input-group-text bg-transparent border-0"
-                id="basic-text1"
-                ><svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="24"
-                  height="24"
-                  viewBox="0 0 24 24"
-                >
-                  <path
-                    fill="#00cae6"
-                    d="M22.896 22.918c-.72.716-1.559 1.074-2.518 1.074-.839 0-1.798-.358-2.517-1.074l-4.556-4.532c-1.079.477-2.397.716-3.716.716-5.275 0-9.591-4.294-9.591-9.542S4.314.018 9.468.018c5.276 0 9.592 4.294 9.592 9.542 0 1.312-.24 2.505-.72 3.697l4.556 4.533c1.439 1.312 1.439 3.697 0 5.128zM9.589 16.716c3.956 0 7.193-3.22 7.193-7.156 0-3.936-3.237-7.156-7.193-7.156-3.956 0-7.193 3.22-7.193 7.156 0 3.936 3.237 7.156 7.193 7.156zm11.629 2.743l-4.076-4.055a11.094 11.094 0 0 1-1.679 1.67l4.076 4.055c.48.477 1.2.477 1.679 0 .48-.477.48-1.192 0-1.67z"
-                  />
-                </svg>
-              </a>
-            </div>
-          </div>
-
-          <!-- Dropdown Search Filter -->
-          <button
-            type="button"
-            class="btn pr-0 pl-4 dropdown-toogle"
-            data-toggle="dropdown"
-            aria-haspopup="true"
-            aria-expanded="false"
-            id="btnDropdown"
-          >
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="24"
-              height="23"
-              viewBox="0 0 24 23"
-            >
-              <path
-                fill="#00cae6"
-                d="M14.577 5.232h-.215L1.495 5.23c-.16 0-.324-.006-.483-.028-.373-.054-.641-.275-.837-.59a1.28 1.28 0 0 1 .203-1.552c.26-.247.572-.363.927-.363h13.267C15.257 1.002 16.481.09 18.285 0c1.803.09 3.028.999 3.716 2.698.144 0 .294-.004.445 0 .172.006.345.01.516.03.315.04.572.202.763.451.191.248.296.536.27.857-.03.384-.187.7-.493.94-.239.185-.506.259-.8.256-.233-.002-.465 0-.709 0-.338.952-.931 1.688-1.796 2.187a3.712 3.712 0 0 1-2.177.504c-1.4-.109-2.802-.952-3.444-2.691zm2.309-1.268c-.03.806.663 1.426 1.382 1.433A1.412 1.412 0 0 0 19.7 3.99a1.407 1.407 0 0 0-1.406-1.452 1.402 1.402 0 0 0-1.408 1.426zm-5.917 13.804c.651-1.605 1.782-2.544 3.483-2.688.87-.073 1.677.17 2.404.667.729.496 1.226 1.176 1.532 2.021h.177c1.38 0 2.759.001 4.138-.001.273 0 .526.064.75.22a1.27 1.27 0 0 1 .353 1.714 1.182 1.182 0 0 1-.895.577 2.489 2.489 0 0 1-.306.024c-1.325.002-2.65.001-3.976.001h-.233c-.692 1.708-1.924 2.617-3.736 2.697-1.793-.094-3-1.013-3.689-2.697H2.716c-.474 0-.949.001-1.423-.001-.195-.001-.383-.038-.564-.121a1.193 1.193 0 0 1-.635-.669c-.27-.687.065-1.461.796-1.692.171-.054.348-.051.525-.051h8.341l1.071-.001h.142zm5.112 1.268c.032-.807-.678-1.448-1.415-1.433a1.406 1.406 0 0 0-1.395 1.442 1.4 1.4 0 0 0 1.405 1.418c.814.007 1.44-.696 1.405-1.427zm-7-6.27c-.699 1.705-1.924 2.624-3.74 2.698-1.378-.027-2.987-.792-3.686-2.698h-.347a1.252 1.252 0 0 1-.737-.206c-.344-.234-.542-.56-.563-.982-.026-.52.191-.91.628-1.176a1.21 1.21 0 0 1 .601-.167c.14-.005.28 0 .424 0 .335-.927.9-1.647 1.732-2.147a3.705 3.705 0 0 1 2.054-.546c1.475.044 2.966.902 3.624 2.686.046.002.1.005.152.005l1.135.001h12.316c.242 0 .47.048.684.165.513.28.786.96.562 1.54a1.22 1.22 0 0 1-.81.766c-.132.04-.276.058-.414.059-1.184.004-2.369 0-3.554 0l-9.848.002h-.212zm-2.316-1.179a1.417 1.417 0 0 0-1.303-1.512 1.407 1.407 0 0 0-1.509 1.397 1.405 1.405 0 0 0 1.323 1.454c.824.063 1.487-.644 1.49-1.339z"
-              />
-            </svg>
-          </button>
-          <div
-            class="dropdown-menu dropdown-menu-right allow-focus dropdown-filter text-center dropdown-scrollable"
-            aria-labelledby="btnDropdown"
-          >
-            <h6
-              class="dropdown-header text-uppercase font-weight-bolder text-secondary text-center pb-0"
-            >
-              filtros
-            </h6>
-            <ul class="p-4 list-group list-group-flush text-left">
-              <li class="list-group-item border-top-0 px-0">
-                <label>
-                  <input type="checkbox" />
-                  <span>Publicidade e prestação de serviços</span>
-                </label>
-              </li>
-              <li class="list-group-item px-0">
-                <label>
-                  <input type="checkbox" />
-                  <span>Publicidade e prestação de serviços</span>
-                </label>
-              </li>
-              <li class="list-group-item px-0">
-                <label>
-                  <input type="checkbox" />
-                  <span>Publicidade e prestação de serviços</span>
-                </label>
-              </li>
-              <li class="list-group-item px-0">
-                <label>
-                  <input type="checkbox" />
-                  <span>Publicidade e prestação de serviços</span>
-                </label>
-              </li>
-              <li class="list-group-item px-0">
-                <label>
-                  <input type="checkbox" />
-                  <span>Publicidade e prestação de serviços</span>
-                </label>
-              </li>
-              <li class="list-group-item px-0">
-                <label>
-                  <input type="checkbox" />
-                  <span>Publicidade e prestação de serviços</span>
-                </label>
-              </li>
-              <li class="list-group-item px-0">
-                <label>
-                  <input type="checkbox" />
-                  <span>Publicidade e prestação de serviços</span>
-                </label>
-              </li>
-              <li class="list-group-item px-0">
-                <label>
-                  <input type="checkbox" />
-                  <span>Publicidade e prestação de serviços</span>
-                </label>
-              </li>
-              <li class="list-group-item border-bottom-0 px-0">
-                <label>
-                  <input type="checkbox" />
-                  <span>Publicidade e prestação de serviços</span>
-                </label>
-              </li>
-            </ul>
-
-            <a
-              class="btn rounded-pill btn-secondary text-primary py-2 px-4 m-auto d-inline-block text-center mb-4 -sm"
-              href="#"
-              role="button"
-            >
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="20"
-                height="20"
-                viewBox="0 0 24 23"
-                class="mr-2"
-              >
-                <path
-                  fill="#00cae6"
-                  d="M14.577 5.232h-.215L1.495 5.23c-.16 0-.324-.006-.483-.028-.373-.054-.641-.275-.837-.59a1.28 1.28 0 0 1 .203-1.552c.26-.247.572-.363.927-.363h13.267C15.257 1.002 16.481.09 18.285 0c1.803.09 3.028.999 3.716 2.698.144 0 .294-.004.445 0 .172.006.345.01.516.03.315.04.572.202.763.451.191.248.296.536.27.857-.03.384-.187.7-.493.94-.239.185-.506.259-.8.256-.233-.002-.465 0-.709 0-.338.952-.931 1.688-1.796 2.187a3.712 3.712 0 0 1-2.177.504c-1.4-.109-2.802-.952-3.444-2.691zm2.309-1.268c-.03.806.663 1.426 1.382 1.433A1.412 1.412 0 0 0 19.7 3.99a1.407 1.407 0 0 0-1.406-1.452 1.402 1.402 0 0 0-1.408 1.426zm-5.917 13.804c.651-1.605 1.782-2.544 3.483-2.688.87-.073 1.677.17 2.404.667.729.496 1.226 1.176 1.532 2.021h.177c1.38 0 2.759.001 4.138-.001.273 0 .526.064.75.22a1.27 1.27 0 0 1 .353 1.714 1.182 1.182 0 0 1-.895.577 2.489 2.489 0 0 1-.306.024c-1.325.002-2.65.001-3.976.001h-.233c-.692 1.708-1.924 2.617-3.736 2.697-1.793-.094-3-1.013-3.689-2.697H2.716c-.474 0-.949.001-1.423-.001-.195-.001-.383-.038-.564-.121a1.193 1.193 0 0 1-.635-.669c-.27-.687.065-1.461.796-1.692.171-.054.348-.051.525-.051h8.341l1.071-.001h.142zm5.112 1.268c.032-.807-.678-1.448-1.415-1.433a1.406 1.406 0 0 0-1.395 1.442 1.4 1.4 0 0 0 1.405 1.418c.814.007 1.44-.696 1.405-1.427zm-7-6.27c-.699 1.705-1.924 2.624-3.74 2.698-1.378-.027-2.987-.792-3.686-2.698h-.347a1.252 1.252 0 0 1-.737-.206c-.344-.234-.542-.56-.563-.982-.026-.52.191-.91.628-1.176a1.21 1.21 0 0 1 .601-.167c.14-.005.28 0 .424 0 .335-.927.9-1.647 1.732-2.147a3.705 3.705 0 0 1 2.054-.546c1.475.044 2.966.902 3.624 2.686.046.002.1.005.152.005l1.135.001h12.316c.242 0 .47.048.684.165.513.28.786.96.562 1.54a1.22 1.22 0 0 1-.81.766c-.132.04-.276.058-.414.059-1.184.004-2.369 0-3.554 0l-9.848.002h-.212zm-2.316-1.179a1.417 1.417 0 0 0-1.303-1.512 1.407 1.407 0 0 0-1.509 1.397 1.405 1.405 0 0 0 1.323 1.454c.824.063 1.487-.644 1.49-1.339z"
-                />
-              </svg>
-              Filtrar</a
-            >
-          </div>
-        </div>
-
-        <div class="w-100 mt-3">
-          <p
-            class="text-secondary text-left text-uppercase font-size-small font-weight-bolder"
-          >
-            Resultados 10 de 100
+      <!-- Grid Ai -->
+      <section class="section section-aplicativos">
+        <h2 class="fz-20 mb-1 font-weight-bolder text-center text-secondary">
+          O que a inteligencia artificial faz com nossa solução
+        </h2>
+        <div class="container mb-1">
+          <p class="font-size-normal line-height-1 text-center">
+            Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+            accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
+            quae ab illo inventore veritatis et quasi architecto beatae vitae
+            dicta.
           </p>
         </div>
 
-        <!-- Cards Licitaçoes -->
-
-        <ul class="p-0">
-          <li class="card card-border card-search -light mb-3">
-            <div class="row mb-4">
-              <div class="col-12 col-md-6">
-                <h5
-                  class="text-secondary text-uppercase font-weight-bolder mb-2"
-                >
-                  tomada de preços 010/2019
-                </h5>
-                <p class="mb-0">
-                  <strong>Categoria:</strong> Development /
-                  <strong>Cidade:</strong> Curitiba, Brasil
-                </p>
-                <p class="mb-3 mb-md-0">
-                  <strong>Data de abertura:</strong> 04/11/2019 09h00
-                </p>
-              </div>
-              <div
-                class="col-12 col-md-6 d-flex align-items-start justify-content-center justify-content-md-end"
-              >
-                <a
-                  class="btn rounded-pill btn-secondary text-egg-blue -normal font-weight-bolder mr-3"
-                  href="#"
-                  role="button"
-                  data-toggle="modal"
-                  data-target="#exampleModal"
-                  >Ver itens</a
-                >
-                <a
-                  class="btn rounded-pill btn-secondary text-egg-blue -normal font-weight-bolder mr-3"
-                  href="#"
-                  role="button"
-                  data-toggle="modal"
-                  data-target="#exampleModal1"
-                  >Ver edital</a
-                >
-
-                <a href="#" class="star">
-                  <i class="fas fa-star"></i>
-                </a>
+        <div class="container">
+          <div class="card-deck flex-wrap">
+            <div class="card card-app m-2">
+              <div class="media">
+                <img
+                  class="align-self-start p-3 m-1"
+                  src="./assets/images/ai-1.png"
+                  alt="..."
+                />
+                <div class="align-self-start content">
+                  <h6
+                    class="text-uppercase text-secondary mb-2 font-weight-bolder"
+                  >
+                    texto titulo
+                  </h6>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                    sed do eiusmod tempor incididunt ut
+                  </p>
+                </div>
               </div>
             </div>
-
-            <p class="content">
-              <strong>Objeto:</strong> Contratação de agência de
-              <strong class="text-primary">publicidade</strong>
-              para prestação de serviços de natureza contínua nos setores de
-              <strong class="text-primary">publicidade</strong> e propaganda
-              para executar um conjunto de atividades realizadas integradamente
-              que tenham por objetivo o estudo, o planejamento, a conceituação,
-              a concepção, a criação, a execução interna, a intermediação e a
-              supervisão da execução externa e a dis...
-            </p>
-          </li>
-
-          <li class="card card-border card-search -light mb-3">
-            <div class="row mb-4">
-              <div class="col-12 col-md-6">
-                <h5
-                  class="text-secondary text-uppercase font-weight-bolder mb-2"
-                >
-                  tomada de preços 010/2019
-                </h5>
-                <p class="mb-0">
-                  <strong>Categoria:</strong> Development /
-                  <strong>Cidade:</strong> Curitiba, Brasil
-                </p>
-                <p class="mb-3 mb-md-0">
-                  <strong>Data de abertura:</strong> 04/11/2019 09h00
-                </p>
-              </div>
-              <div
-                class="col-12 col-md-6 d-flex align-items-start justify-content-center justify-content-md-end"
-              >
-                <a
-                  class="btn rounded-pill btn-secondary text-egg-blue -normal font-weight-bolder mr-3"
-                  href="#"
-                  role="button"
-                  data-toggle="modal"
-                  data-target="#exampleModal2"
-                  >Ver itens</a
-                >
-                <a
-                  class="btn rounded-pill btn-secondary text-egg-blue -normal font-weight-bolder mr-3"
-                  href="#"
-                  role="button"
-                  >Ver edital</a
-                >
-                <a href="#" class="star selected">
-                  <i class="fas fa-star"></i>
-                </a>
+            <div class="card card-app m-2">
+              <div class="media">
+                <img
+                  class="align-self-start p-3 m-1"
+                  src="./assets/images/ai-2.png"
+                  alt="..."
+                />
+                <div class="align-self-start content">
+                  <h6
+                    class="text-uppercase text-secondary mb-2 font-weight-bolder"
+                  >
+                    texto titulo
+                  </h6>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                    sed do eiusmod tempor incididunt ut
+                  </p>
+                </div>
               </div>
             </div>
-
-            <p class="content">
-              <strong>Objeto:</strong> Contratação de agência de
-              <strong class="text-primary">publicidade</strong>
-              para prestação de serviços de natureza contínua nos setores de
-              <strong class="text-primary">publicidade</strong> e propaganda
-              para executar um conjunto de atividades realizadas integradamente
-              que tenham por objetivo o estudo, o planejamento, a conceituação,
-              a concepção, a criação, a execução interna, a intermediação e a
-              supervisão da execução externa e a dis...
-            </p>
-          </li>
-
-          <li class="card card-border card-search -light mb-3">
-            <div class="row mb-4">
-              <div class="col-12 col-md-6">
-                <h5
-                  class="text-secondary text-uppercase font-weight-bolder mb-2"
-                >
-                  tomada de preços 010/2019
-                </h5>
-                <p class="mb-0">
-                  <strong>Categoria:</strong> Development /
-                  <strong>Cidade:</strong> Curitiba, Brasil
-                </p>
-                <p class="mb-3 mb-md-0">
-                  <strong>Data de abertura:</strong> 04/11/2019 09h00
-                </p>
-              </div>
-              <div
-                class="col-12 col-md-6 d-flex align-items-start justify-content-center justify-content-md-end"
-              >
-                <a
-                  class="btn rounded-pill btn-secondary text-egg-blue -normal font-weight-bolder mr-3"
-                  href="#"
-                  role="button"
-                  data-toggle="modal"
-                  data-target="#exampleModal2"
-                  >Ver itens</a
-                >
-                <a
-                  class="btn rounded-pill btn-secondary text-egg-blue -normal font-weight-bolder mr-3"
-                  href="#"
-                  role="button"
-                  >Ver edital</a
-                >
-                <a href="#" class="star">
-                  <i class="fas fa-star"></i>
-                </a>
+            <div class="card card-app m-2">
+              <div class="media">
+                <img
+                  class="align-self-start p-3 m-1"
+                  src="./assets/images/ai-3.png"
+                  alt="..."
+                />
+                <div class="align-self-start content">
+                  <h6
+                    class="text-uppercase text-secondary mb-2 font-weight-bolder"
+                  >
+                    texto titulo
+                  </h6>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                    sed do eiusmod tempor incididunt ut
+                  </p>
+                </div>
               </div>
             </div>
-
-            <p class="content">
-              <strong>Objeto:</strong> Contratação de agência de
-              <strong class="text-primary">publicidade</strong>
-              para prestação de serviços de natureza contínua nos setores de
-              <strong class="text-primary">publicidade</strong> e propaganda
-              para executar um conjunto de atividades realizadas integradamente
-              que tenham por objetivo o estudo, o planejamento, a conceituação,
-              a concepção, a criação, a execução interna, a intermediação e a
-              supervisão da execução externa e a dis...
-            </p>
-          </li>
-
-          <li class="card card-border card-search -light mb-3">
-            <div class="row mb-4">
-              <div class="col-12 col-md-6">
-                <h5
-                  class="text-secondary text-uppercase font-weight-bolder mb-2"
-                >
-                  tomada de preços 010/2019
-                </h5>
-                <p class="mb-0">
-                  <strong>Categoria:</strong> Development /
-                  <strong>Cidade:</strong> Curitiba, Brasil
-                </p>
-                <p class="mb-3 mb-md-0">
-                  <strong>Data de abertura:</strong> 04/11/2019 09h00
-                </p>
-              </div>
-              <div
-                class="col-12 col-md-6 d-flex align-items-start justify-content-center justify-content-md-end"
-              >
-                <a
-                  class="btn rounded-pill btn-secondary text-egg-blue -normal font-weight-bolder mr-3"
-                  href="#"
-                  role="button"
-                  >Ver itens</a
-                >
-                <a
-                  class="btn rounded-pill btn-secondary text-egg-blue -normal font-weight-bolder mr-3"
-                  href="#"
-                  role="button"
-                  >Ver edital</a
-                >
-                <a href="#" class="star selected">
-                  <i class="fas fa-star"></i>
-                </a>
+            <div class="card card-app m-2">
+              <div class="media">
+                <img
+                  class="align-self-start p-3 m-1"
+                  src="./assets/images/ai-4.png"
+                  alt="..."
+                />
+                <div class="align-self-start content">
+                  <h6
+                    class="text-uppercase text-secondary mb-2 font-weight-bolder"
+                  >
+                    texto titulo
+                  </h6>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                    sed do eiusmod tempor incididunt ut
+                  </p>
+                </div>
               </div>
             </div>
+            <div class="card card-app m-2">
+              <div class="media">
+                <img
+                  class="align-self-start p-3 m-1"
+                  src="./assets/images/ai-5.png"
+                  alt="..."
+                />
+                <div class="align-self-start content">
+                  <h6
+                    class="text-uppercase text-secondary mb-2 font-weight-bolder"
+                  >
+                    texto titulo
+                  </h6>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                    sed do eiusmod tempor incididunt ut
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="card card-app m-2">
+              <div class="media">
+                <img
+                  class="align-self-start p-3 m-1"
+                  src="./assets/images/ai-6.png"
+                  alt="..."
+                />
+                <div class="align-self-start content">
+                  <h6
+                    class="text-uppercase text-secondary mb-2 font-weight-bolder"
+                  >
+                    texto titulo
+                  </h6>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                    sed do eiusmod tempor incididunt ut
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="card card-app m-2">
+              <div class="media">
+                <img
+                  class="align-self-start p-3 m-1"
+                  src="./assets/images/ai-7.png"
+                  alt="..."
+                />
+                <div class="align-self-start content">
+                  <h6
+                    class="text-uppercase text-secondary mb-2 font-weight-bolder"
+                  >
+                    texto titulo
+                  </h6>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                    sed do eiusmod tempor incididunt ut
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="card card-app m-2">
+              <div class="media">
+                <img
+                  class="align-self-start p-3 m-1"
+                  src="./assets/images/ai-8.png"
+                  alt="..."
+                />
+                <div class="align-self-start content">
+                  <h6
+                    class="text-uppercase text-secondary mb-2 font-weight-bolder"
+                  >
+                    texto titulo
+                  </h6>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                    sed do eiusmod tempor incididunt ut
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="card card-app m-2">
+              <div class="media">
+                <img
+                  class="align-self-start p-3 m-1"
+                  src="./assets/images/ai-9.png"
+                  alt="..."
+                />
+                <div class="align-self-start content">
+                  <h6
+                    class="text-uppercase text-secondary mb-2 font-weight-bolder"
+                  >
+                    texto titulo
+                  </h6>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                    sed do eiusmod tempor incididunt ut
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
-            <p class="content">
-              <strong>Objeto:</strong> Contratação de agência de
-              <strong class="text-primary">publicidade</strong>
-              para prestação de serviços de natureza contínua nos setores de
-              <strong class="text-primary">publicidade</strong> e propaganda
-              para executar um conjunto de atividades realizadas integradamente
-              que tenham por objetivo o estudo, o planejamento, a conceituação,
-              a concepção, a criação, a execução interna, a intermediação e a
-              supervisão da execução externa e a dis...
-            </p>
-          </li>
-        </ul>
-        <a
-          class="btn rounded-pill btn-secondary text-primary -py-40"
-          href="#"
-          role="button"
-          >Carregar mais</a
-        >
+      <!-- Cta Criar Conta -->
+      <div class="section section-cta-conta">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col col-sm-7">
+              <h2 class="px-2 m-sm-0 text-secondary text-center text-sm-left">
+                Use ao máximo todas as funcionalidades
+                <span class="font-weight-bolder">Vendas Governo</span>
+              </h2>
+            </div>
+            <div
+              class="col col-sm-5  d-flex justify-content-center text-center text-sm-left"
+            >
+              <a
+                class="btn rounded-pill btn-light text-secondary text-nowrap"
+                href="#"
+                role="button"
+                >Criar sua conta</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Instala App -->
+      <section class="section bg-secondary">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-12 col-md-6">
+              <h2 class="text-white text-center text-md-left ">
+                Lorem ipsum dolor sit amet,
+                <span class="font-weight-bolder">consectetur adipisicing</span>
+                elit, sed do eiusmod tempor
+              </h2>
+              <p class="text-white">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                nulla pariatur. Excepteur sint
+              </p>
+            </div>
+            <div class="col-12 col-md-6">
+              <img
+                class="d-block mh-sm-100"
+                src="./assets/images/company-layout.png"
+                alt="..."
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section bg-primary">
+        <div class="container">
+          <div class="row align-items-center">
+            <div
+              class="col-12 col-md-6 d-flex justify-content-end order-2 order-md-1"
+            >
+              <img src="./assets/images/company-layout.png" alt="..." />
+            </div>
+            <div class="col-12 col-md-6 order-1 order-md-2">
+              <h2 class="text-white text-center text-md-left">
+                Lorem ipsum dolor sit amet,
+                <span class="font-weight-bolder">consectetur adipisicing</span>
+                elit, sed do eiusmod tempor
+              </h2>
+              <p class="text-secondary">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                nulla pariatur. Excepteur sint
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section bg-light">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-12 col-md-6">
+              <h2 class="text-secondary text-center text-md-left">
+                Lorem ipsum dolor sit amet,
+                <span class="font-weight-bolder">consectetur adipisicing</span>
+                elit, sed do eiusmod tempor
+              </h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                nulla pariatur. Excepteur sint
+              </p>
+            </div>
+            <div class="col-12 col-md-6">
+              <img src="./assets/images/company-layout.png" alt="..." />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Slider de marcas -->
+      <div class="section py-5 my-4">
+        <h3 class="px-2 mb-3 text-center">Eles acreditaram</h3>
+
+        <div class="container container-slider">
+          <!-- slider -->
+          <div class="vg-slider-marcas">
+            <img src="/assets/images/ust-global.png" alt="..." />
+            <img src="/assets/images/volvo.png" alt="..." />
+            <img src="/assets/images/ibm.png" alt="..." />
+            <img src="/assets/images/randstad.png" alt="..." />
+            <img src="/assets/images/santander.png" alt="..." />
+            <img src="/assets/images/capgemini.png" alt="..." />
+            <img src="/assets/images/randstad.png" alt="..." />
+          </div>
+          <!-- customize controls -->
+          <div class="custom-controls custom-controls-vg-slider-marcas">
+            <span class="next">
+              <i class="fa fa-angle-left 2x"></i>
+            </span>
+            <span class="prev">
+              <i class="fa fa-angle-right"></i>
+            </span>
+          </div>
+        </div>
       </div>
 
       <!-- Cta contrate -->
-      <div class="section section-cta-contrate py-4 my-md-5">
+      <div class="section section-cta-contrate py-4 mb-md-5 mt-0">
         <div class="container">
           <div class="row align-items-center">
             <div
@@ -798,6 +778,7 @@
       </div>
     </main>
 
+    <!-- Footer -->
     <footer class="vg-footer">
       <nav class="navbar navbar-expand-lg navbar-light pb-4 text-center">
         <div class="container">
@@ -1051,174 +1032,29 @@
       </div>
     </footer>
 
-    <!-- Modal licitação -->
-    <div
-      class="modal fade"
-      id="exampleModal1"
-      tabindex="-1"
-      role="dialog"
-      aria-labelledby="exampleModalLabel1"
-      aria-hidden="true"
-    >
-      <div class="modal-dialog  modal-dialog-centered modal-licitacao">
-        <div class="modal-content modal-">
-          <div class="modal-body p-0">
-            <div class="container-fluid">
-              <div class="row">
-                <div class="d-none d-sm-flex col-5 p-0">
-                  <img src="./assets/images/casal.png" alt="..." />
-                </div>
-                <div
-                  class="col-sm-7 p-0 d-flex flex-column justify-content-center p-4 "
-                >
-                  <h3 class="mb-3 text-secondary">
-                    <span class="font-weight-bolder">Saiba mais</span> <br />
-                    sobre essa <br />
-                    licitação
-                  </h3>
-                  <a
-                    class="btn rounded-pill btn-secondary  py-2 px-4 d-inline-block text-center -sm text-uppercase mb-3"
-                    href="#"
-                    role="button"
-                  >
-                    Já sou cadastrado</a
-                  >
-                  <div>
-                    <a
-                      class="btn rounded-pill btn-primary py-2 px-4 d-inline-block text-center -sm text-uppercase mr-2"
-                      href="#"
-                      role="button"
-                    >
-                      Cadastrar</a
-                    >
-                    <a href="#" class="text-secondary link-planos"
-                      >Ver planos</a
-                    >
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div
-      class="modal fade"
-      id="exampleModal2"
-      tabindex="-1"
-      role="dialog"
-      aria-labelledby="exampleModalLabel2"
-      aria-hidden="true"
-    >
-      <div class="modal-dialog  modal-dialog-centered modal-licitacao">
-        <div class="modal-content">
-          <div class="modal-body p-0">
-            <div class="container-fluid">
-              <div class="row">
-                <div class="d-none d-sm-flex col-5 p-0">
-                  <img src="./assets/images/casal.png" alt="..." />
-                </div>
-                <div
-                  class="col-sm-7 p-0 d-flex flex-column justify-content-center p-4 "
-                >
-                  <h3 class="mb-3 text-secondary">
-                    <span class="font-weight-bolder">Saiba mais</span> <br />
-                    sobre essa <br />
-                    licitação
-                  </h3>
-                  <a
-                    class="btn rounded-pill btn-secondary  py-2 px-4 d-inline-block text-center -sm text-uppercase mb-3"
-                    href="#"
-                    role="button"
-                  >
-                    Já sou cadastrado</a
-                  >
-                  <div>
-                    <a
-                      class="btn rounded-pill btn-primary py-2 px-4 d-inline-block text-center -sm text-uppercase mr-2"
-                      href="#"
-                      role="button"
-                    >
-                      Cadastrar</a
-                    >
-                    <a href="#" class="text-secondary link-planos"
-                      >Ver planos</a
-                    >
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div
-      class="modal fade"
-      id="exampleModal"
-      tabindex="-1"
-      role="dialog"
-      aria-labelledby="exampleModalLabel"
-      aria-hidden="true"
-    >
-      <div class="modal-dialog  modal-dialog-centered modal-licitacao">
-        <div class="modal-content modal-">
-          <div class="modal-body p-0">
-            <div class="container-fluid">
-              <div class="row">
-                <div class="d-none d-sm-flex col-5 p-0">
-                  <img src="./assets/images/casal.png" alt="..." />
-                </div>
-                <div
-                  class="col-sm-7 p-0 d-flex flex-column justify-content-center p-4 "
-                >
-                  <h3 class="mb-3 text-secondary">
-                    <span class="font-weight-bolder">Saiba mais</span> <br />
-                    sobre essa <br />
-                    licitação
-                  </h3>
-                  <a
-                    class="btn rounded-pill btn-secondary  py-2 px-4 d-inline-block text-center -sm text-uppercase mb-3"
-                    href="#"
-                    role="button"
-                  >
-                    Já sou cadastrado</a
-                  >
-                  <div>
-                    <a
-                      class="btn rounded-pill btn-primary py-2 px-4 d-inline-block text-center -sm text-uppercase mr-2"
-                      href="#"
-                      role="button"
-                    >
-                      Cadastrar</a
-                    >
-                    <a href="#" class="text-secondary link-planos"
-                      >Ver planos</a
-                    >
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
     <script src="/assets/js/jquery.js"></script>
     <script src="/assets/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
 
     <script>
-      document.querySelectorAll(".star").forEach(function(star) {
-        star.addEventListener("click", function(e) {
-          e.preventDefault();
-          this.classList.toggle("selected");
-        });
-      });
-
-      document
-        .querySelector(".allow-focus")
-        .addEventListener("click", function(e) {
-          e.stopPropagation();
-        });
+      tns({
+        container: ".vg-slider-marcas",
+        controlsContainer: ".custom-controls-vg-slider-marcas",
+        controls: true,
+        autoplay: true,
+        autoplayButtonOutput: false,
+        nav: false,
+        items: 3,
+        edgePadding: 8,
+        responsive: {
+          640: {
+            items: 5
+          },
+          900: {
+            items: 6
+          }
+        }
+      });    
     </script>
   </body>
 </html>

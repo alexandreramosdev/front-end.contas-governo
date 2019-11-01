@@ -7959,7 +7959,7 @@ input[type="checkbox"]:checked:after {
         position: absolute;
         left: 0;
         top: -138px;
-        filter: drop-shadow(0px 5px 20px #333333);
+        filter: drop-shadow(0px 5px 20px rgba(51, 51, 51, 0.3));
         z-index: 1020; }
   .section-app {
     background: linear-gradient(to bottom, #ecf1f8, transparent 70%); }
