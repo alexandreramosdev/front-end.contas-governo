@@ -96,6 +96,8 @@
       position: absolute;
       left: 40px;
       bottom: 60px;
+      border-top-right-radius: 0;
+      border-bottom-right-radius: 0;
     }
 
     & .card-title {
@@ -106,15 +108,37 @@
       color: $secondary;
       line-height: 1;
       text-transform: uppercase;
-
-      &.-indicado {
-        color: #00eea4;
-      }
     }
 
-    & .card-header {
-      &.-indicado {
+    transition: all 0.3s ease;
+
+    &:hover {
+      transform: scale(1.01);
+      & .card-title {
+        color: #00eea4;
+      }
+      & .card-header {
         background: #00eea4;
+
+        & p {
+          color: $gray-lighter !important;
+
+          &:nth-child(2) {
+            color: $secondary !important;
+          }
+        }
+      }
+      & .card-footer {
+        & .btn {
+          background-color: #00eea4;
+          color: $secondary !important;
+          border-color: #00eea4;
+
+          &:hover {
+            background-color: transparent;
+            color: #00eea4 !important;
+          }
+        }
       }
     }
   }

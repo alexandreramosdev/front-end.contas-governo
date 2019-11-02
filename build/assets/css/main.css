@@ -7735,13 +7735,16 @@ strong {
     border-radius: 20px;
     box-shadow: 2px 2px 35px rgba(58, 58, 108, 0.13);
     padding-top: 38px;
-    position: relative; }
+    position: relative;
+    transition: all 0.3s ease; }
     .card-planos__side {
       margin-bottom: 70px;
       width: 280px !important;
       position: absolute;
       left: 40px;
-      bottom: 60px; }
+      bottom: 60px;
+      border-top-right-radius: 0;
+      border-bottom-right-radius: 0; }
     .card-planos .card-title {
       font-size: 1.125rem;
       font-weight: 900;
@@ -7750,10 +7753,23 @@ strong {
       color: #3a3a6c;
       line-height: 1;
       text-transform: uppercase; }
-      .card-planos .card-title.-indicado {
+    .card-planos:hover {
+      transform: scale(1.01); }
+      .card-planos:hover .card-title {
         color: #00eea4; }
-    .card-planos .card-header.-indicado {
-      background: #00eea4; }
+      .card-planos:hover .card-header {
+        background: #00eea4; }
+        .card-planos:hover .card-header p {
+          color: #88898a !important; }
+          .card-planos:hover .card-header p:nth-child(2) {
+            color: #3a3a6c !important; }
+      .card-planos:hover .card-footer .btn {
+        background-color: #00eea4;
+        color: #3a3a6c !important;
+        border-color: #00eea4; }
+        .card-planos:hover .card-footer .btn:hover {
+          background-color: transparent;
+          color: #00eea4 !important; }
   .card-footer {
     border-radius: 12px; }
   .card-header {
