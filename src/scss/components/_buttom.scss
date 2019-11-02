@@ -58,13 +58,16 @@
     &.-secondary {
       color: $secondary !important;
     }
+
     &:hover {
       background-color: transparent;
       color: $egg-blue !important;
       border-color: $egg-blue;
 
-      > svg {
-        fill: $egg-blue;
+      & > svg {
+        & path {
+          fill: $egg-blue;
+        }
       }
     }
   }
