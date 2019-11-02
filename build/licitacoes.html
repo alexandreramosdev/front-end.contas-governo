@@ -24,7 +24,7 @@
         <div class="container">
           <div class="row text-center align-items-center">
             <div class="col-lg-5">
-              <p class="font-size-sm m-0 text-white">
+              <p class="font-size-sm m-0 text-white text-nowrap">
                 <img class="mr-2" src="./assets/images/fone.png" alt="..." />
                 Ligue para a gente. É Grátis!
                 <a
@@ -34,8 +34,8 @@
                 >
               </p>
             </div>
-            <div class="col-lg-3 flex-grow-1">
-              <p class="font-size-sm m-0 text-white">
+            <div class="col-lg-4 text-left">
+              <p class="font-size-sm m-0 text-white text-nowrap">
                 <img
                   class="mr-1"
                   src="./assets/images/whatsapp.png"
@@ -51,7 +51,7 @@
               </p>
             </div>
             <div
-              class="col-lg-4 d-flex align-items-center justify-content-center justify-content-lg-end py-2 py-lg-0 px-4 flex-shrink-1"
+              class="col-lg-3 d-flex align-items-center justify-content-center justify-content-lg-end py-2 py-lg-0 px-4 flex-nowrap"
             >
               <div>
                 <a
@@ -107,7 +107,7 @@
               </div>
               <div>
                 <a
-                  class="btn btn-weight-normal rounded-pill px-2 py-1 -smaller btn-egg-blue text-secondary dropdown  text-uppercase"
+                  class="btn btn-weight-normal rounded-pill px-2 py-1 -smaller btn-egg-blue -secondary dropdown  text-uppercase"
                   data-toggle="modal"
                   data-target="#experimentar"
                   aria-haspopup="true"
@@ -197,7 +197,7 @@
                         Soluções desenhadas para atender você.
                       </h4>
                       <a
-                        class="dropdown-item rounded-pill text-secondary font-weight-bold mb-2 active bg-lighter"
+                        class="dropdown-item rounded-pill text-secondary font-weight-bold mb-2"
                         href="#"
                         >Banco de Licitações</a
                       >
@@ -265,10 +265,9 @@
                   </div>
                 </div>
               </li>
-
               <li class="nav-item pr-1">
                 <a
-                  class="nav-link font-weight-bold text-secondary"
+                  class="nav-link font-weight-bold text-gray-lighter"
                   href="licitacoes.html"
                   >Licitações</a
                 >
@@ -283,7 +282,7 @@
               <li class="nav-item pr-1">
                 <a
                   class="nav-link font-weight-bold text-gray-lighter"
-                  href="planoseprecos.html"
+                  href="planos-precos.html"
                   >Planos e Preços</a
                 >
               </li>
@@ -297,7 +296,7 @@
               <li class="nav-item pr-1 dropdown">
                 <a
                   class="nav-link font-weight-bold text-gray-lighter dropdown-toggle"
-                  href="sobre.html"
+                  href="#"
                   id="navbarDropdownMenuLink-1"
                   data-toggle="dropdown"
                   aria-haspopup="true"
@@ -317,23 +316,23 @@
                         Lorem ipsum dolor sit amet, consectetur.
                       </h4>
                       <a
-                        class="dropdown-item rounded-pill text-secondary  font-weight-bold mb-2 bg-lighter active"
-                        href="#"
+                        class="dropdown-item rounded-pill text-secondary  font-weight-bold mb-2"
+                        href="quem-somos.html"
                         >Quem somos</a
                       >
                       <a
                         class="dropdown-item rounded-pill text-secondary  font-weight-bold  mb-2"
-                        href="#"
+                        href="ai.html"
                         >AI</a
                       >
                       <a
                         class="dropdown-item rounded-pill text-secondary  font-weight-bold  mb-2"
-                        href="#"
+                        href="tecnologia.html"
                         >Tecnologia</a
                       >
                       <a
                         class="dropdown-item rounded-pill text-secondary  font-weight-bold  mb-2"
-                        href="#"
+                        href="trabalhe-conosco.html"
                         >Trabalhe Conosco</a
                       >
                     </div>
@@ -385,10 +384,11 @@
         <div class="container">
           <div><i class="fas fa-home"></i> > licitação</div>
           <div class="row justify-content-center">
-            <div class="d-none d-sm-flex col-sm-8">
+            <div class="d-none d-sm-flex col-sm-8" data-anime>
               <img class="img" src="./assets/images/breadcrumb.png" alt="..." />
             </div>
             <div
+            data-anime="right"
               class="col-12 col-sm-4 d-flex flex-column justify-content-center"
             >
               <h1 class="mb-2">Licitações</h1>
@@ -403,7 +403,7 @@
 
       <!-- Search licitacao -->
       <div class="container d-flex flex-column align-items-center">
-        <div class="d-flex justify-content-between align-items-center w-100">
+        <div data-anime="left" class="d-flex justify-content-between align-items-center w-100">
           <div
             class="input-group input-search md-form form-sm card-border border-secondary form-2 pl-0 rounded-pill input-search"
           >
@@ -542,7 +542,7 @@
           </div>
         </div>
 
-        <div class="w-100 mt-3">
+        <div class="w-100 mt-3" data-anime>
           <p
             class="text-secondary text-left text-uppercase font-size-small font-weight-bolder"
           >
@@ -553,7 +553,7 @@
         <!-- Cards Licitaçoes -->
 
         <ul class="p-0">
-          <li class="card card-border card-search -light mb-3">
+          <li class="card card-border card-search -light mb-3" data-anime="right">
             <div class="row mb-4">
               <div class="col-12 col-md-6">
                 <h5
@@ -573,7 +573,7 @@
                 class="col-12 col-md-6 d-flex align-items-start justify-content-center justify-content-md-end"
               >
                 <a
-                  class="btn rounded-pill btn-secondary text-egg-blue -normal font-weight-bolder mr-3"
+                  class="btn rounded-pill btn-secondary -egg-blue -normal font-weight-bolder mr-3"
                   href="#"
                   role="button"
                   data-toggle="modal"
@@ -581,7 +581,7 @@
                   >Ver itens</a
                 >
                 <a
-                  class="btn rounded-pill btn-secondary text-egg-blue -normal font-weight-bolder mr-3"
+                  class="btn rounded-pill btn-secondary -egg-blue -normal font-weight-bolder mr-3"
                   href="#"
                   role="button"
                   data-toggle="modal"
@@ -607,7 +607,7 @@
             </p>
           </li>
 
-          <li class="card card-border card-search -light mb-3">
+          <li class="card card-border card-search -light mb-3" data-anime="right">
             <div class="row mb-4">
               <div class="col-12 col-md-6">
                 <h5
@@ -627,7 +627,7 @@
                 class="col-12 col-md-6 d-flex align-items-start justify-content-center justify-content-md-end"
               >
                 <a
-                  class="btn rounded-pill btn-secondary text-egg-blue -normal font-weight-bolder mr-3"
+                  class="btn rounded-pill btn-secondary -egg-blue -normal font-weight-bolder mr-3"
                   href="#"
                   role="button"
                   data-toggle="modal"
@@ -635,7 +635,7 @@
                   >Ver itens</a
                 >
                 <a
-                  class="btn rounded-pill btn-secondary text-egg-blue -normal font-weight-bolder mr-3"
+                  class="btn rounded-pill btn-secondary -egg-blue -normal font-weight-bolder mr-3"
                   href="#"
                   role="button"
                   >Ver edital</a
@@ -658,7 +658,7 @@
             </p>
           </li>
 
-          <li class="card card-border card-search -light mb-3">
+          <li class="card card-border card-search -light mb-3" data-anime="right">
             <div class="row mb-4">
               <div class="col-12 col-md-6">
                 <h5
@@ -678,7 +678,7 @@
                 class="col-12 col-md-6 d-flex align-items-start justify-content-center justify-content-md-end"
               >
                 <a
-                  class="btn rounded-pill btn-secondary text-egg-blue -normal font-weight-bolder mr-3"
+                  class="btn rounded-pill btn-secondary -egg-blue -normal font-weight-bolder mr-3"
                   href="#"
                   role="button"
                   data-toggle="modal"
@@ -686,7 +686,7 @@
                   >Ver itens</a
                 >
                 <a
-                  class="btn rounded-pill btn-secondary text-egg-blue -normal font-weight-bolder mr-3"
+                  class="btn rounded-pill btn-secondary -egg-blue -normal font-weight-bolder mr-3"
                   href="#"
                   role="button"
                   >Ver edital</a
@@ -709,7 +709,7 @@
             </p>
           </li>
 
-          <li class="card card-border card-search -light mb-3">
+          <li class="card card-border card-search -light mb-3" data-anime="right">
             <div class="row mb-4">
               <div class="col-12 col-md-6">
                 <h5
@@ -729,13 +729,13 @@
                 class="col-12 col-md-6 d-flex align-items-start justify-content-center justify-content-md-end"
               >
                 <a
-                  class="btn rounded-pill btn-secondary text-egg-blue -normal font-weight-bolder mr-3"
+                  class="btn rounded-pill btn-secondary -egg-blue -normal font-weight-bolder mr-3"
                   href="#"
                   role="button"
                   >Ver itens</a
                 >
                 <a
-                  class="btn rounded-pill btn-secondary text-egg-blue -normal font-weight-bolder mr-3"
+                  class="btn rounded-pill btn-secondary -egg-blue -normal font-weight-bolder mr-3"
                   href="#"
                   role="button"
                   >Ver edital</a
@@ -758,8 +758,9 @@
             </p>
           </li>
         </ul>
+
         <a
-          class="btn rounded-pill btn-secondary text-primary -py-40"
+          class="btn rounded-pill btn-secondary -primary -py-40"
           href="#"
           role="button"
           >Carregar mais</a
@@ -767,8 +768,8 @@
       </div>
 
       <!-- Cta contrate -->
-      <div class="section section-cta-contrate py-4 my-md-5">
-        <div class="container">
+      <div class="section section-cta-contrate py-4 my-md-5" >
+        <div class="container" data-anime="left">
           <div class="row align-items-center">
             <div
               class="col d-flex flex-column align-items-center align-items-md-start"
@@ -780,7 +781,7 @@
                 <span class="font-weight-bolder">licitação.</span>
               </h2>
               <a
-                class="btn rounded-pill btn-egg-blue text-secondary"
+                class="btn rounded-pill btn-egg-blue -secondary"
                 href="#"
                 role="button"
                 >Contrate agora</a
@@ -869,7 +870,7 @@
                   >
                   <a
                     class="dropdown-item rounded-pill pl-2 py-0 text-gray-lighter font-size-smaller"
-                    href="#"
+                    href="monitor-de-concorrencia.html"
                     >Monitor de Concorrência</a
                   >
                   <a
@@ -883,28 +884,28 @@
               <li class="nav-item pr-2">
                 <a
                   class="nav-link text-sm text-secondary font-weight-bolder font-size-small"
-                  href="#"
+                  href="licitacoes.html"
                   >Licitações</a
                 >
               </li>
               <li class="nav-item pr-2">
                 <a
                   class="nav-link text-secondary font-weight-bolder font-size-small"
-                  href="#"
+                  href="aplicativos.html"
                   >Aplicativos</a
                 >
               </li>
               <li class="nav-item pr-2">
                 <a
                   class="nav-link text-secondary font-weight-bolder font-size-small"
-                  href="#"
+                  href="planos-precos.html"
                   >Planos e Preços</a
                 >
               </li>
               <li class="nav-item pr-2">
                 <a
                   class="nav-link text-secondary font-weight-bolder font-size-small"
-                  href="#"
+                  href="blog.html"
                   >Blog</a
                 >
               </li>
@@ -925,22 +926,22 @@
                 >
                   <a
                     class="dropdown-item rounded-pill pl-2 py-0 text-gray-lighter  font-size-smaller"
-                    href="#"
+                    href="quem-somos.html"
                     >Quem somos</a
                   >
                   <a
                     class="dropdown-item rounded-pill pl-2 py-0 text-gray-lighter  font-size-smaller"
-                    href="#"
+                    href="ai.html"
                     >Inteligência artificial</a
                   >
                   <a
                     class="dropdown-item rounded-pill pl-2 py-0 text-gray-lighter  font-size-smaller"
-                    href="#"
+                    href="tecnologia.html"
                     >Tecnologia</a
                   >
                   <a
                     class="dropdown-item rounded-pill pl-2 py-0 text-gray-lighter  font-size-smaller"
-                    href="#"
+                    href="trabalhe-conosco.html"
                     >Trabalhe Conosco</a
                   >
                 </div>
@@ -948,7 +949,7 @@
               <li class="nav-item">
                 <a
                   class="nav-link text-secondary font-weight-bolder font-size-small"
-                  href="#"
+                  href="contato.html"
                   >Contato</a
                 >
               </li>
@@ -1205,6 +1206,7 @@
 
     <script src="/assets/js/jquery.js"></script>
     <script src="/assets/js/bootstrap.bundle.min.js"></script>
+    <script src="./assets/js/animeScroll.js"></script>
 
     <script>
       document.querySelectorAll(".star").forEach(function(star) {

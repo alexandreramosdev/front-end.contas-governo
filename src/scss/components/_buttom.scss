@@ -25,4 +25,57 @@
   &-weight-normal {
     font-weight: normal;
   }
+
+  &:focus {
+    outline: none;
+  }
+
+  &-primary {
+    &:hover {
+      background-color: transparent;
+      color: $primary !important;
+      border-color: $primary;
+    }
+  }
+
+  &-secondary {
+    &.-primary {
+      color: $egg-blue !important;
+    }
+
+    &.-egg-blue {
+      color: $egg-blue !important;
+    }
+
+    &:hover {
+      background-color: transparent;
+      color: $secondary !important;
+      border-color: $secondary;
+    }
+  }
+
+  &-egg-blue {
+    &.-secondary {
+      color: $secondary !important;
+    }
+    &:hover {
+      background-color: transparent;
+      color: $egg-blue !important;
+      border-color: $egg-blue;
+
+      > svg {
+        fill: $egg-blue;
+      }
+    }
+  }
+  &-light {
+    &.-secondary {
+      color: $secondary !important;
+    }
+    &:hover {
+      background-color: transparent;
+      color: #fff !important;
+      border-color: #fff;
+    }
+  }
 }

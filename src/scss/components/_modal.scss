@@ -39,6 +39,11 @@
 }
 
 .dropdown {
+  &-item {
+    &:hover {
+      background-color: #ededf2 !important;
+    }
+  }
   &-login {
     box-shadow: 2px 2px 35px rgba(58, 58, 108, 0.13);
 
