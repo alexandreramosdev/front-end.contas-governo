@@ -1,4 +1,43 @@
 .media {
+  &-rounded {
+    border-radius: 20px;
+    padding: 42px 32px;
+
+    & .container-img {
+      position: relative;
+      border-radius: 20px;
+      z-index: 2000;
+      height: 100%;
+      padding: 0;
+
+      & img {
+        width: 100%;
+      }
+
+      & .btn {
+        z-index: 2000;
+        transition: all 0.5s ease;
+        position: absolute !important;
+        bottom: 30px;
+        left: 50%;
+        transform: translateX(-50%);
+        opacity: 0;
+      }
+    }
+
+    &:hover {
+      & .btn {
+        opacity: 1;
+
+        &:hover {
+          background-color: rgba(#fff, 0.9);
+          color: $egg-blue !important;
+          border-color: $egg-blue;
+        }
+      }
+    }
+  }
+
   & h6 {
     margin-bottom: 0;
     font-size: 1.125rem;
@@ -244,6 +283,19 @@
       &.selected {
         color: #00cae6;
       }
+    }
+  }
+}
+
+.accordion {
+  & .card-tc {
+    & .card-header {
+      border-radius: 10px !important;
+      cursor: pointer;
+    }
+
+    & .card-body {
+      background-color: #f6f8fc;
     }
   }
 }
