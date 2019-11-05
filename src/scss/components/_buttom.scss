@@ -31,6 +31,15 @@
   }
 
   &-primary {
+    &.-secondary {
+      color: $secondary !important;
+
+      &:hover {
+        background-color: $secondary;
+        color: $primary !important;
+        border-color: $secondary;
+      }
+    }
     &:hover {
       background-color: transparent;
       color: $primary !important;
@@ -78,6 +87,18 @@
     &:hover {
       background-color: transparent;
       color: #fff !important;
+      border-color: #fff;
+    }
+  }
+  &-outline-primary {
+    border-width: 2px;
+    border-radius: 15px;
+    &.-secondary {
+      color: $secondary !important;
+    }
+    &:hover {
+      background-color: $secondary;
+      color: $primary !important;
       border-color: #fff;
     }
   }

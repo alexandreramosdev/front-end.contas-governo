@@ -1,7 +1,8 @@
 .cform {
   & input,
   & textarea,
-  & .col {
+  & .form-control,
+  & .custom-file {
     margin-bottom: 12px !important;
   }
 

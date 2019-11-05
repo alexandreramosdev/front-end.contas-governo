@@ -175,4 +175,9 @@
         no-repeat;
     }
   }
+  &-contato {
+    @media (min-width: 1700px) {
+      background: url("/assets/images/logo-white.png") -100px no-repeat;
+    }
+  }
 }
