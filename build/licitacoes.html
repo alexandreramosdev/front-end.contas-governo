@@ -14,6 +14,7 @@
       integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="./assets/css/main.css" />
     <title>Licitações - Vendas Governo</title>
   </head>
@@ -24,8 +25,13 @@
         <div class="container">
           <div class="row text-center align-items-center">
             <div class="col-lg-5">
-              <p class="font-size-sm m-0 text-white text-nowrap">
-                <img width="17" class="mr-2" src="./assets/images/fone.png" alt="..." />
+              <p class="font-size-sm m-0 text-white">
+                <img
+                  width="17"
+                  class="mr-2"
+                  src="./assets/images/fone.png"
+                  alt="..."
+                />
                 Ligue para a gente. É Grátis!
                 <a
                   class="text-primary font-weight-bold"
@@ -36,7 +42,8 @@
             </div>
             <div class="col-lg-4 text-lg-left text-center">
               <p class="font-size-sm m-0 text-white text-nowrap">
-                <img width="17"
+                <img
+                  width="17"
                   class="mr-1"
                   src="./assets/images/whatsapp.png"
                   alt="..."
@@ -384,12 +391,12 @@
         <div class="container">
           <div><i class="fas fa-home"></i> > licitação</div>
           <div class="row justify-content-center">
-            <div class="d-none d-sm-flex col-sm-8"  >
+            <div class="d-none d-sm-flex col-sm-8" data-aos='zoom-in'>
               <img class="img" src="./assets/images/breadcrumb.png" alt="..." />
             </div>
             <div
-             
               class="col-12 col-sm-4 d-flex flex-column justify-content-center"
+              data-aos="fade-left"
             >
               <h1 class="mb-2">Licitações</h1>
               <h2>
@@ -403,9 +410,10 @@
 
       <!-- Search licitacao -->
       <div class="container d-flex flex-column align-items-center">
-        <div   class="d-flex justify-content-between align-items-center w-100">
+        <div class="d-flex justify-content-between align-items-center w-100">
           <div
             class="input-group input-search md-form form-sm card-border border-secondary form-2 pl-0 rounded-pill input-search"
+            data-aos="fade-down"
           >
             <input
               class="form-control m-2 pl-4 border-0 bg-transparent"
@@ -542,7 +550,7 @@
           </div>
         </div>
 
-        <div class="w-100 mt-3"  >
+        <div class="w-100 mt-3" data-aos="fade">
           <p
             class="text-secondary text-left text-uppercase font-size-small font-weight-bolder"
           >
@@ -553,7 +561,7 @@
         <!-- Cards Licitaçoes -->
 
         <ul class="p-0">
-          <li class="card card-border card-search -light mb-3"  >
+          <li class="card card-border card-search -light mb-3" data-aos="fade-left">
             <div class="row mb-4">
               <div class="col-12 col-md-6">
                 <h5
@@ -607,7 +615,7 @@
             </p>
           </li>
 
-          <li class="card card-border card-search -light mb-3"  >
+          <li class="card card-border card-search -light mb-3" data-aos="fade-left">
             <div class="row mb-4">
               <div class="col-12 col-md-6">
                 <h5
@@ -658,7 +666,7 @@
             </p>
           </li>
 
-          <li class="card card-border card-search -light mb-3"  >
+          <li class="card card-border card-search -light mb-3" data-aos="fade-left">
             <div class="row mb-4">
               <div class="col-12 col-md-6">
                 <h5
@@ -709,7 +717,7 @@
             </p>
           </li>
 
-          <li class="card card-border card-search -light mb-3"  >
+          <li class="card card-border card-search -light mb-3" data-aos="fade-left">
             <div class="row mb-4">
               <div class="col-12 col-md-6">
                 <h5
@@ -760,7 +768,8 @@
         </ul>
 
         <a
-          class="btn rounded-pill btn-secondary -primary -py-40"
+          data-aos="zoom-in"
+          class="btn rounded-pill btn-secondary -primary -py-40 mb-4"
           href="#"
           role="button"
           >Carregar mais</a
@@ -768,13 +777,14 @@
       </div>
 
       <!-- Cta contrate -->
-      <div class="section section-cta-contrate py-4 my-md-5" >
-        <div class="container"  >
+      <div class="section section-cta-contrate py-4 my-md-5">
+        <div class="container">
           <div class="row align-items-center">
             <div
               class="col d-flex flex-column align-items-center align-items-md-start"
+              data-aos="fade-right"
             >
-              <h2 class="px-2 mb-4 text-white text-center text-sm-left">
+              <h2 class="px-2 mb-4 text-white text-center text-sm-left" >
                 Sua empresa pode <span class="font-weight-bolder">ganhar</span>
                 <br />
                 cada vez mais com
@@ -787,7 +797,7 @@
                 >Contrate agora</a
               >
             </div>
-            <div class="col side-img d-none d-md-flex">
+            <div class="col side-img d-none d-md-flex" data-aos="fade-left">
               <img
                 class="img"
                 src="./assets/images/img-contratacao.png"
@@ -1206,9 +1216,10 @@
 
     <script src="/assets/js/jquery.js"></script>
     <script src="/assets/js/bootstrap.bundle.min.js"></script>
-      
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 
     <script>
+      AOS.init()
       document.querySelectorAll(".star").forEach(function(star) {
         star.addEventListener("click", function(e) {
           e.preventDefault();

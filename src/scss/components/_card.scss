@@ -261,9 +261,13 @@
   }
 
   &-search {
-    padding: 25px 40px;
     border-radius: 40px;
     margin-bottom: 20px;
+    padding: 15px 20px;
+
+    @media (min-width: 576px) {
+      padding: 25px 40px;
+    }
 
     & p {
       font-size: $font-size-base;
