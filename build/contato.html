@@ -14,7 +14,8 @@
       integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
       crossorigin="anonymous"
     />
-       <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" /><link rel="stylesheet" href="./assets/css/main.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="./assets/css/main.css" />
     <title>Contato - Vendas Governo</title>
   </head>
 
@@ -389,18 +390,18 @@
       <div class="section-breadcrumb bg-gelo mb-0 ">
         <div class="container">
           <div class="row justify-content-center px-0">
-            <div   class="col-12 col-sm-5 mb-2">
+            <div class="col-12 col-sm-5 mb-2">
               <p class="text-uppercase fz-13 mb-0 pl-4">
                 <i class="fas fa-home"></i> > contato
               </p>
-              <h1 class="mb-2 mt-4 text-grayy font-weight-normal">
+              <h1 class="mb-2 mt-4 text-grayy font-weight-normal" data-aos="fade-right">
                 Queremos saber suas
                 <span class="font-weight-bolder"
                   >dúvidas, comentários ou sugestões</span
                 >
               </h1>
             </div>
-            <div class="col-7 d-flex"  >
+            <div class="col-7 d-flex" data-aos="zoom-in">
               <img
                 style="margin-bottom: -30px;"
                 src="./assets/images/contato.png"
@@ -413,9 +414,9 @@
 
       <!-- Contato -->
       <section class="section section-contato">
-        <div class="container" >
+        <div class="container">
           <div class="row pb-5">
-            <div class="col-12 col-md-6">
+            <div class="col-12 col-md-6" data-aos="fade-right">
               <form
                 class="cform d-flex flex-column justify-content-between"
                 action=""
@@ -474,6 +475,7 @@
             </div>
             <div
               class="col-12 col-md-6 d-flex flex-column justify-content-between"
+              data-aos="fade-left"
             >
               <div>
                 <h6 class="text-secondary text-uppercase mb-3">
@@ -488,7 +490,7 @@
                   />
                   <p class="text-secondary fz-20 line-height-2 mb-0">
                     Ligue para a gente. É Grátis! <br />
-                    <span class="font-weight-bolder">0800 007 0017</span>
+                    <a class="font-weight-bolder text-secondary" href="tel:+5508000070017">0800 007 0017</a>
                   </p>
                 </div>
                 <div class="d-flex align-items-center mb-4">
@@ -500,7 +502,7 @@
                   />
                   <p class="text-secondary fz-20 line-height-2 mb-0">
                     se preferir <br />
-                    <span class="font-weight-bolder">41 99188 6054</span>
+                    <a class="font-weight-bolder text-secondary" href="tel:+5541991886054">41 99188 6054</a>
                   </p>
                 </div>
               </div>
@@ -579,10 +581,11 @@
 
       <!-- Cta contrate -->
       <div class="section section-cta-contrate py-4 mb-md-5 mt-0">
-        <div class="container"  >
+        <div class="container">
           <div class="row align-items-center">
             <div
               class="col d-flex flex-column align-items-center align-items-md-start"
+              data-aos="fade-right"
             >
               <h2 class="px-2 mb-4 text-white text-center text-sm-left">
                 Sua empresa pode <span class="font-weight-bolder">ganhar</span>
@@ -591,13 +594,14 @@
                 <span class="font-weight-bolder">licitação.</span>
               </h2>
               <a
+              data-aos="fade-right"
                 class="btn rounded-pill btn-egg-blue -secondary"
                 href="#"
                 role="button"
                 >Contrate agora</a
               >
             </div>
-            <div class="col side-img d-none d-md-flex">
+            <div class="col side-img d-none d-md-flex" data-aos="fade-left">
               <img
                 class="img"
                 src="./assets/images/img-contratacao.png"
@@ -865,8 +869,10 @@
 
     <script src="./assets/js/jquery.js"></script>
     <script src="./assets/js/bootstrap.bundle.min.js"></script>
-      
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 
-    <script></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
