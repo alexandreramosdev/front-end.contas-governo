@@ -13,10 +13,10 @@ const debounce = function(func, wait, immediate) {
   };
 };
 
-const target = document.querySelectorAll("[data-anime]");
+const target = document.querySelectorAll("[ ]");
 
 function animeScroll() {
-  const windowTop = window.pageYOffset + (window.innerHeight * 3) / 4;
+  const windowTop = window.pageYOffset + (window.innerHeight * 3.5) / 4;
   target.forEach(element => {
     if (windowTop > element.offsetTop) {
       element.classList.add("animate");
@@ -33,6 +33,6 @@ if (target.length) {
     "scroll",
     debounce(() => {
       animeScroll();
-    }, 200)
+    }, 10)
   );
 }

@@ -8456,20 +8456,3 @@ input[type="checkbox"]:checked:after {
   background-position: 95% center;
   width: 100%;
   height: 30px; }
-
-[data-anime] {
-  opacity: 0 !important;
-  transition: all 0.3s !important; }
-
-[data-anime="left"] {
-  transform: translateX(-5rem) !important; }
-
-[data-anime="right"] {
-  transform: translateX(5rem) !important; }
-
-[data-anime="up"] {
-  transform: translateY(5rem) !important; }
-
-[data-anime].animate {
-  opacity: 1 !important;
-  transform: translate(0) !important; }
