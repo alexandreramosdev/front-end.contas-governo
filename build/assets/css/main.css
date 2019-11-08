@@ -8280,6 +8280,10 @@ input[type="checkbox"]:checked:after {
     background: url("/assets/images/about-cta.png") center center no-repeat, linear-gradient(to right, #01f39b, #00bcff); }
     .section-cta-about h2 {
       font-size: 1.875rem; }
+  .section-cta-depoimento {
+    background: linear-gradient(to right, #01f39b, #00bcff); }
+  .section-cta-dp {
+    background: linear-gradient(to right, #01f39b, #00bcff); }
   .section-cta-contrate {
     background-color: #3a3a6c;
     margin-bottom: 100px !important; }
