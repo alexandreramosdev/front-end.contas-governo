@@ -206,6 +206,10 @@
     }
   }
 
+  &-rounded {
+    border-radius: 12px;
+  }
+
   &-radius {
     overflow: hidden;
     border-top-left-radius: 12px;

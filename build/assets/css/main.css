@@ -8051,6 +8051,8 @@ strong {
     border: 3px solid #919ccb; }
     .card-border.-light {
       border: 3px solid #ecf1f8; }
+  .card-rounded {
+    border-radius: 12px; }
   .card-radius {
     overflow: hidden;
     border-top-left-radius: 12px;
@@ -8274,6 +8276,10 @@ input[type="checkbox"]:checked:after {
     background: linear-gradient(to right, #01f39b, #00bcff); }
     .section-cta-conta h2 {
       font-size: 1.875rem; }
+  .section-cta-about {
+    background: url("/assets/images/about-cta.png") center center no-repeat, linear-gradient(to right, #01f39b, #00bcff); }
+    .section-cta-about h2 {
+      font-size: 1.875rem; }
   .section-cta-contrate {
     background-color: #3a3a6c;
     margin-bottom: 100px !important; }
@@ -8360,6 +8366,11 @@ input[type="checkbox"]:checked:after {
   @media (min-width: 1700px) {
     .section-contato {
       background: url("/assets/images/logo-white.png") -100px no-repeat; } }
+  @media (min-width: 1700px) {
+    .section-valores {
+      background: url("/assets/images/logotipo-dark.png") -100px no-repeat; } }
+  .section-vd-governo {
+    background-image: linear-gradient(to bottom, #ecf1f8 0%, #ffffff 100%); }
 
 .container-slider {
   max-width: 960px;
