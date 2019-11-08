@@ -133,10 +133,20 @@
       margin-bottom: 70px;
       width: 280px !important;
       position: absolute;
-      left: 40px;
+      left: 37px;
       bottom: 60px;
       border-top-right-radius: 0;
       border-bottom-right-radius: 0;
+      z-index: 1000;
+      background: linear-gradient(to right, #fff, transparent);
+
+      &:hover {
+        transform: scale(1);
+      }
+    }
+
+    & span {
+      z-index: 1000;
     }
 
     & .card-title {
@@ -178,6 +188,11 @@
             color: #00eea4 !important;
           }
         }
+      }
+    }
+    &__side {
+      &:hover {
+        transform: scale(1);
       }
     }
   }

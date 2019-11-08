@@ -8010,10 +8010,16 @@ strong {
       margin-bottom: 70px;
       width: 280px !important;
       position: absolute;
-      left: 40px;
+      left: 37px;
       bottom: 60px;
       border-top-right-radius: 0;
-      border-bottom-right-radius: 0; }
+      border-bottom-right-radius: 0;
+      z-index: 1000;
+      background: linear-gradient(to right, #fff, transparent); }
+      .card-planos__side:hover {
+        transform: scale(1); }
+    .card-planos span {
+      z-index: 1000; }
     .card-planos .card-title {
       font-size: 1.125rem;
       font-weight: 900;
@@ -8039,6 +8045,8 @@ strong {
         .card-planos:hover .card-footer .btn:hover {
           background-color: transparent;
           color: #00eea4 !important; }
+    .card-planos__side:hover {
+      transform: scale(1); }
   .card-footer {
     border-radius: 12px; }
   .card-header {
