@@ -5,6 +5,7 @@ $body-color: #6a7480;
 $bluelighter: #919ccb;
 $gray-lighter: #88898a;
 $egg-blue: #00cae6;
+$gelo-blue: #e9f6ff;
 
 $font-family-sans-serif: Lato, sans-serif;
 $headings-margin-bottom: 2.5rem;
@@ -19,7 +20,8 @@ $theme-colors: (
   "indicado": #00eea4,
   "lighter": #ededf2,
   "gelo": #ecf1f8,
-  "grayy": $headings-color
+  "grayy": $headings-color,
+  "gelo-blue": $gelo-blue
 );
 
 $h1-font-size: 3.125rem;

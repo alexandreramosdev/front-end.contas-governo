@@ -50,6 +50,13 @@
     background: linear-gradient(to right, #01f39b, #00bcff);
   }
 
+  &-cta-solucoes {
+    background: $secondary url("/assets/images/bg-cta-solucoes.png") center
+      no-repeat;
+    background-blend-mode: multiply;
+    background-size: cover;
+  }
+
   &-cta-contrate {
     background-color: $secondary;
     margin-bottom: 100px !important;

@@ -19,6 +19,19 @@
   }
 }
 
+.form-control {
+  font-size: 13px !important;
+  color: $secondary !important;
+  border: none !important;
+  background-color: #ecf1f8 !important;
+
+  &::placeholder {
+    font-size: 13px !important;
+    color: $secondary !important;
+    font-weight: 700;
+  }
+}
+
 .custom-file {
   position: relative;
   background-color: #ecf1f8;
