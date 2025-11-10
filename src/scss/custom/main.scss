@@ -1,0 +1,29 @@
+$primary: #00d6d0;
+$secondary: #3a3a6c;
+$headings-color: #63636c;
+$body-color: #6a7480;
+$bluelighter: #919ccb;
+$gray-lighter: #88898a;
+$egg-blue: #00cae6;
+$gelo-blue: #e9f6ff;
+
+$font-family-sans-serif: Lato, sans-serif;
+$headings-margin-bottom: 2.5rem;
+$display1-weight: 100;
+
+$input-btn-focus-box-shadow: none;
+
+$theme-colors: (
+  "gray-lighter": $gray-lighter,
+  "bluelighter": $bluelighter,
+  "egg-blue": $egg-blue,
+  "indicado": #00eea4,
+  "lighter": #ededf2,
+  "gelo": #ecf1f8,
+  "grayy": $headings-color,
+  "gelo-blue": $gelo-blue
+);
+
+$h1-font-size: 3.125rem;
+$h2-font-size: 2.375rem;
+$h3-font-size: 1.875rem;

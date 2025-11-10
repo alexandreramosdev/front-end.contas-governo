@@ -1,0 +1,105 @@
+.btn {
+  padding: 0.9375rem 1.875rem;
+  font-weight: bolder;
+  line-height: 1;
+  font-size: 1.25rem;
+
+  &.-sm {
+    padding: 0.6875rem 1.875rem;
+    font-size: 0.875rem;
+  }
+
+  &.-smaller {
+    font-size: 0.75rem;
+  }
+
+  &.-py-40 {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  &.-normal {
+    font-size: 1rem;
+  }
+
+  &-weight-normal {
+    font-weight: normal;
+  }
+
+  &:focus {
+    outline: none;
+  }
+
+  &-primary {
+    &.-secondary {
+      color: $secondary !important;
+
+      &:hover {
+        background-color: $secondary;
+        color: $primary !important;
+        border-color: $secondary;
+      }
+    }
+    &:hover {
+      background-color: transparent;
+      color: $primary !important;
+      border-color: $primary;
+    }
+  }
+
+  &-secondary {
+    &.-primary {
+      color: $egg-blue !important;
+    }
+
+    &.-egg-blue {
+      color: $egg-blue !important;
+    }
+
+    &:hover {
+      background-color: transparent;
+      color: $secondary !important;
+      border-color: $secondary;
+    }
+  }
+
+  &-egg-blue {
+    &.-secondary {
+      color: $secondary !important;
+    }
+
+    &:hover {
+      background-color: transparent;
+      color: $egg-blue !important;
+      border-color: $egg-blue;
+
+      & > svg {
+        & path {
+          fill: $egg-blue;
+        }
+      }
+    }
+  }
+  &-light {
+    &.-secondary {
+      color: $secondary !important;
+    }
+    &:hover {
+      background-color: transparent;
+      color: #fff !important;
+      border-color: #fff;
+    }
+  }
+  &-outline-primary {
+    border-width: 2px;
+    border-radius: 15px;
+    &.-secondary {
+      color: $secondary !important;
+    }
+    &:hover {
+      background-color: $secondary;
+      color: $primary !important;
+      border-color: #fff;
+    }
+  }
+}

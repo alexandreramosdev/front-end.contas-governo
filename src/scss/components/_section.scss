@@ -1,0 +1,215 @@
+.section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2.5rem 0;
+
+  &-hero {
+    & .side-img {
+      position: relative;
+
+      > img {
+        position: absolute;
+        left: 0;
+        top: -205px;
+
+        // filter: drop-shadow(0px 10px 45px #222);
+      }
+    }
+  }
+
+  &-cta-db {
+    background-color: #ecf1f8;
+
+    & h2 {
+      font-size: 1.875rem;
+    }
+  }
+
+  &-cta-conta {
+    background: linear-gradient(to right, #01f39b, #00bcff);
+
+    & h2 {
+      font-size: 1.875rem;
+    }
+  }
+
+  &-cta-about {
+    background: url("/assets/images/about-cta.png") center center no-repeat,
+      linear-gradient(to right, #01f39b, #00bcff);
+    & h2 {
+      font-size: 1.875rem;
+    }
+  }
+
+  &-cta-depoimento {
+    background: linear-gradient(to right, #01f39b, #00bcff);
+  }
+
+  &-cta-dp {
+    background: linear-gradient(to right, #01f39b, #00bcff);
+  }
+
+  &-cta-solucoes {
+    background: $secondary url("/assets/images/bg-cta-solucoes.png") center
+      no-repeat;
+    background-blend-mode: multiply;
+    background-size: cover;
+  }
+
+  &-cta-contrate {
+    background-color: $secondary;
+    margin-bottom: 100px !important;
+
+    & h2 {
+      font-size: 1.875rem;
+    }
+
+    & .side-img {
+      position: relative;
+
+      > img {
+        position: absolute;
+        left: 0;
+        top: -138px;
+        // box-shadow: 0 20px 40px #000;
+        filter: drop-shadow(0px 5px 20px rgba(51, 51, 51, 0.3));
+        z-index: 1020;
+      }
+    }
+  }
+
+  &-app {
+    background: linear-gradient(to bottom, #ecf1f8, transparent 70%);
+    & .side-img {
+      position: relative;
+
+      > img {
+        position: absolute;
+        left: 0;
+        top: -327px;
+        filter: drop-shadow(0px 15px 35px #22222222);
+        z-index: 1020;
+      }
+    }
+  }
+
+  &-licitacao {
+    background: linear-gradient(to right, #01f39b, #00bcff);
+  }
+
+  &-case {
+    background: url("/assets/images/logo-white.png") -100px no-repeat;
+  }
+
+  &-breadcrumb {
+    background: #dce1ec;
+    margin-bottom: 90px;
+    padding-top: 18px;
+
+    & .col {
+      position: relative;
+    }
+
+    & .img {
+      position: absolute;
+      right: 100px;
+      margin-top: 10px;
+    }
+
+    & h1 {
+      color: $secondary;
+      font-weight: bolder;
+      font-size: 38px;
+      margin-top: 26px;
+    }
+
+    & h2 {
+      color: #63636c;
+      font-size: 30px;
+      margin-bottom: 72px;
+
+      & span {
+        font-weight: bolder;
+      }
+    }
+
+    &-planosepreços {
+      background-color: #ecf1f8;
+      height: 430px;
+      margin-bottom: 0;
+
+      @media (max-width: 575px) {
+        height: 330px;
+      }
+
+      & h1 {
+        font-weight: normal;
+      }
+
+      & h2 {
+        font-size: 25px;
+      }
+    }
+
+    &-app {
+      background-color: #d1d6e3;
+      margin-bottom: 0;
+      height: 300px;
+
+      @media (min-width: 576px) {
+        margin-bottom: 90px;
+      }
+    }
+  }
+
+  &-faq-pp {
+    background-color: #ecf1f8;
+    padding-bottom: 90px;
+  }
+
+  &-aplication {
+    background-color: #f1f6fd;
+
+    & img {
+      @media (max-width: 764px) {
+        width: 100%;
+      }
+    }
+  }
+
+  &-aplicativos {
+    background: url("/assets/images/logo-white.png") -100px no-repeat;
+  }
+
+  &-tc {
+    & .img {
+      left: 0;
+    }
+  }
+  &-tc-case {
+    background: linear-gradient(to bottom, #f1f6fd, transparent);
+  }
+
+  &-cadastrar {
+    & .row.fix {
+      padding: 30px 0;
+      background: url("/assets/images/logotipo-light.png") left top / auto 375px
+        no-repeat;
+    }
+  }
+  &-contato {
+    @media (min-width: 1700px) {
+      background: url("/assets/images/logo-white.png") -100px no-repeat;
+    }
+  }
+  &-valores {
+    @media (min-width: 1700px) {
+      background: url("/assets/images/logotipo-dark.png") -100px no-repeat;
+    }
+  }
+
+  &-vd-governo {
+    background-image: linear-gradient(to bottom, #ecf1f8 0%, #ffffff 100%);
+  }
+}

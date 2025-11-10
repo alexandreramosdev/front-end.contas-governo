@@ -1,0 +1,34 @@
+.container-slider {
+  max-width: 960px;
+  position: relative;
+}
+
+.custom-controls {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-left: auto;
+  padding: 0 10px;
+
+  &:focus {
+    outline: none;
+  }
+
+  & > .next,
+  & > .prev {
+    font-size: 2.25rem;
+    color: $secondary;
+    cursor: pointer;
+    z-index: 1;
+  }
+}
+
+#tns2-iw {
+  padding: 15px 30px;
+}
