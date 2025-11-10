@@ -40,7 +40,7 @@ primeiros trabalhos profissionais.
 
 ## 🖼 Screenshots
 
-![Home Screenshot](screenshots/home.png)
+![Home Screenshot](screenshot.jpg)
 
 ------------------------------------------------------------------------
 
