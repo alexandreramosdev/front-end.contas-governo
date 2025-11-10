@@ -1,122 +1,91 @@
-# Contas do Governo – Front-End
+# Contas de Governo -- Front-End
 
-Projeto desenvolvido como **freelancer**, responsável por estruturar a interface front-end do sistema **Contas do Governo**.  
-A aplicação utiliza **Sass (SCSS)** para modularização de estilos, **Bootstrap 4.3.1**, e um pipeline de build otimizado com Node.js, Autoprefixer e node-sass.
+Projeto desenvolvido como **freelance** há alguns anos, voltado para a
+visualização simples e direta de informações públicas de contas
+governamentais.\
+Este repositório permanece público para compor meu **histórico de
+evolução técnica**, já que foi criado no período em que eu estudava de
+forma autônoma.
 
-✅ **Projeto online:**  
-https://alexandreramos-contasgoverno.netlify.app/
+Apesar de antigo, o projeto segue funcional e representa um dos meus
+primeiros trabalhos profissionais.
 
----
+🔗 **Deploy:** https://alexandreramos-contasgoverno.netlify.app/
 
-## 🎯 Objetivo
+------------------------------------------------------------------------
 
-Criar a camada visual do sistema com foco em:
+## ✅ Resumo do Projeto
 
-- Organização modular de estilos com SCSS  
-- Interface responsiva e clara  
-- Código limpo e fácil de manter  
-- Pipeline de build profissional  
-- Compatibilidade entre navegadores  
-- Entrega final publicada e otimizada  
+-   Desenvolvimento **Front-End** utilizando **HTML, CSS, JavaScript e
+    Sass**\
+-   Estrutura simples, responsiva e focada em consulta rápida\
+-   Utiliza **node-sass** (tecnologia da época, mantida sem atualização
+    para evitar quebra de compatibilidade)\
+-   Entregue originalmente como **freelance** para atender uma
+    necessidade específica do cliente
 
----
+------------------------------------------------------------------------
 
-## 🚀 Tecnologias Utilizadas
+## 📂 Estrutura de Pastas
 
-### Front-End
-- HTML5  
-- CSS3  
-- Sass / SCSS  
-- Bootstrap 4.3.1  
+    /src
+      /sass
+      /css
+      /js
+    /screenshots
+    index.html
+    package.json
 
-### Ferramentas e Build
-- Node.js  
-- node-sass  
-- Autoprefixer (PostCSS)  
-- postcss-cli  
-- npm-run-all  
-- live-server  
+------------------------------------------------------------------------
 
----
+## 🖼 Screenshots
 
-## 📁 Estrutura do Projeto
+![Home Screenshot](screenshots/home.png)
 
-/src
+------------------------------------------------------------------------
 
-/scss → Arquivos Sass (main.scss como entrada)
+## 🧩 Como Rodar Localmente
 
-/assets/css → CSS intermediário do build
+### 1. Clone o repositório
 
-/build
+``` bash
+git clone https://github.com/alexandreramosdev/front-end.contas-gov.git
+```
 
-/assets/css → CSS final minificado
+### 2. Acesse o diretório
 
-index.html
+``` bash
+cd front-end.contas-gov
+```
 
-package.json
+### 3. Execução rápida (sem compilar Sass)
 
+``` bash
+npx serve .
+```
 
----
+### 4. Compilar Sass (caso necessário)
 
-## 🛠️ Scripts Disponíveis
+⚠️ *Este projeto utiliza `node-sass`, compatível com versões antigas do
+Node (v12--v14). Não há atualização planejada para evitar quebra do
+projeto original.*
 
-### Desenvolvimento
-```bash
-npm start
-````
-- Inicia o live-server
-- Observa mudanças em SCSS
-- Recarrega automaticamente
+``` bash
+npm install
+npm run watch:sass
+```
 
-### Build de CSS (produção)
-```bash
-npm run build:css
-````
-Pipeline:
+------------------------------------------------------------------------
 
-1. Compila SCSS
-2. Aplica autoprefixer
-3. Minifica e envia para build/assets/css/main.css
+## 📝 Nota Importante
 
----
+Este projeto é **histórico**, preservado exatamente como foi entregue na
+época do freelance.\
+Hoje, utilizo tecnologias mais modernas e padronizações de mercado ---
+este repositório está aqui como parte da minha trajetória profissional.
 
-📦 Dependências Principais
+------------------------------------------------------------------------
 
-Produção
+## 📜 Licença
 
-- bootstrap
-
-Desenvolvimento
-
-- node-sass
-- autoprefixer
-- postcss-cli
-- live-server
-- npm-run-all
-
----
-
-✅ Resultado Final
-
-Código modular e organizado
-
-SCSS estruturado profissionalmente
-
-Build otimizado
-
-Projeto publicado no Netlify
-
-Pronto para integração com APIs/back-end
-
----
-
-✅ Versão online:
-https://alexandreramos-contasgoverno.netlify.app/
-
----
-
-👨‍💻 Autor
-
-Alexandre Ramos
-Desenvolvedor Front-End | Projetos freelance
-
+Livre para consulta e uso educacional/portfólio.
