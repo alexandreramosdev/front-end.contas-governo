@@ -17,10 +17,10 @@ primeiros trabalhos profissionais.
 ## ✅ Resumo do Projeto
 
 -   Desenvolvimento **Front-End** utilizando **HTML, CSS, JavaScript e
-    Sass**\
--   Estrutura simples, responsiva e focada em consulta rápida\
+    Sass**
+-   Estrutura simples, responsiva e focada em consulta rápida
 -   Utiliza **node-sass** (tecnologia da época, mantida sem atualização
-    para evitar quebra de compatibilidade)\
+    para evitar quebra de compatibilidade)
 -   Entregue originalmente como **freelance** para atender uma
     necessidade específica do cliente
 
